@@ -1,0 +1,93 @@
+CRITICAL - 2023-03-29 00:09:48 --> Object of class PHPUnit\Framework\Constraint\StringMatchesFormatDescription could not be converted to string
+#0 C:\xampp\htdocs\app_bank_sumut\system\CodeIgniter.php(832): App\Controllers\Home->twoFactorVerificationProcess()
+#1 C:\xampp\htdocs\app_bank_sumut\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#2 C:\xampp\htdocs\app_bank_sumut\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\app_bank_sumut\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2023-03-29 00:13:52 --> sha1(): Passing null to parameter #1 ($string) of type string is deprecated
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(8192, 'sha1(): Passing...', 'C:\\xampp\\htdocs...', 89)
+#1 C:\xampp\htdocs\app_bank_sumut\app\Controllers\Home.php(89): sha1(NULL)
+#2 C:\xampp\htdocs\app_bank_sumut\app\Controllers\Home.php(160): App\Controllers\Home->prosesLogin()
+#3 C:\xampp\htdocs\app_bank_sumut\system\CodeIgniter.php(832): App\Controllers\Home->twoFactorVerificationProcess()
+#4 C:\xampp\htdocs\app_bank_sumut\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 C:\xampp\htdocs\app_bank_sumut\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\app_bank_sumut\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2023-03-29 00:14:19 --> sha1(): Passing null to parameter #1 ($string) of type string is deprecated
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(8192, 'sha1(): Passing...', 'C:\\xampp\\htdocs...', 89)
+#1 C:\xampp\htdocs\app_bank_sumut\app\Controllers\Home.php(89): sha1(NULL)
+#2 C:\xampp\htdocs\app_bank_sumut\app\Controllers\Home.php(160): App\Controllers\Home->prosesLogin()
+#3 C:\xampp\htdocs\app_bank_sumut\system\CodeIgniter.php(832): App\Controllers\Home->twoFactorVerificationProcess()
+#4 C:\xampp\htdocs\app_bank_sumut\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 C:\xampp\htdocs\app_bank_sumut\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\app_bank_sumut\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2023-03-29 00:16:28 --> sha1(): Passing null to parameter #1 ($string) of type string is deprecated
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(8192, 'sha1(): Passing...', 'C:\\xampp\\htdocs...', 90)
+#1 C:\xampp\htdocs\app_bank_sumut\app\Controllers\Home.php(90): sha1(NULL)
+#2 C:\xampp\htdocs\app_bank_sumut\app\Controllers\Home.php(162): App\Controllers\Home->prosesLogin()
+#3 C:\xampp\htdocs\app_bank_sumut\system\CodeIgniter.php(832): App\Controllers\Home->twoFactorVerificationProcess()
+#4 C:\xampp\htdocs\app_bank_sumut\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 C:\xampp\htdocs\app_bank_sumut\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\app_bank_sumut\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2023-03-29 00:17:49 --> Too few arguments to function App\Controllers\Home::twoFactorVerificationProcess(), 0 passed in C:\xampp\htdocs\app_bank_sumut\system\CodeIgniter.php on line 832 and exactly 1 expected
+#0 C:\xampp\htdocs\app_bank_sumut\system\CodeIgniter.php(832): App\Controllers\Home->twoFactorVerificationProcess()
+#1 C:\xampp\htdocs\app_bank_sumut\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#2 C:\xampp\htdocs\app_bank_sumut\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\app_bank_sumut\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2023-03-29 00:26:22 --> Too few arguments to function App\Controllers\Home::twoFactorVerificationProcess(), 0 passed in C:\xampp\htdocs\app_bank_sumut\system\CodeIgniter.php on line 832 and exactly 1 expected
+#0 C:\xampp\htdocs\app_bank_sumut\system\CodeIgniter.php(832): App\Controllers\Home->twoFactorVerificationProcess()
+#1 C:\xampp\htdocs\app_bank_sumut\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#2 C:\xampp\htdocs\app_bank_sumut\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\app_bank_sumut\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2023-03-29 00:27:05 --> sha1(): Passing null to parameter #1 ($string) of type string is deprecated
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(8192, 'sha1(): Passing...', 'C:\\xampp\\htdocs...', 90)
+#1 C:\xampp\htdocs\app_bank_sumut\app\Controllers\Home.php(90): sha1(NULL)
+#2 C:\xampp\htdocs\app_bank_sumut\app\Controllers\Home.php(162): App\Controllers\Home->prosesLogin()
+#3 C:\xampp\htdocs\app_bank_sumut\system\CodeIgniter.php(832): App\Controllers\Home->twoFactorVerificationProcess()
+#4 C:\xampp\htdocs\app_bank_sumut\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 C:\xampp\htdocs\app_bank_sumut\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\app_bank_sumut\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2023-03-29 00:28:01 --> Too few arguments to function App\Controllers\Home::twoFactorVerificationProcess(), 0 passed in C:\xampp\htdocs\app_bank_sumut\system\CodeIgniter.php on line 832 and exactly 2 expected
+#0 C:\xampp\htdocs\app_bank_sumut\system\CodeIgniter.php(832): App\Controllers\Home->twoFactorVerificationProcess()
+#1 C:\xampp\htdocs\app_bank_sumut\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#2 C:\xampp\htdocs\app_bank_sumut\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\app_bank_sumut\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+ERROR - 2023-03-29 01:21:27 --> Email: sendWithSmtp throwed fsockopen(): SSL operation failed with code 1. OpenSSL Error messages:
+error:0A000086:SSL routines::certificate verify failed
+ERROR - 2023-03-29 01:39:56 --> Email: sendWithSmtp throwed fsockopen(): SSL operation failed with code 1. OpenSSL Error messages:
+error:0A000086:SSL routines::certificate verify failed
+ERROR - 2023-03-29 02:18:53 --> Email: sendWithSmtp throwed fsockopen(): SSL operation failed with code 1. OpenSSL Error messages:
+error:0A000086:SSL routines::certificate verify failed
+ERROR - 2023-03-29 02:25:25 --> Email: sendWithSmtp throwed fsockopen(): SSL operation failed with code 1. OpenSSL Error messages:
+error:0A000086:SSL routines::certificate verify failed
+ERROR - 2023-03-29 02:28:44 --> Email: sendWithSmtp throwed fsockopen(): SSL operation failed with code 1. OpenSSL Error messages:
+error:0A000086:SSL routines::certificate verify failed
+ERROR - 2023-03-29 02:38:56 --> Email: sendWithSmtp throwed fsockopen(): SSL operation failed with code 1. OpenSSL Error messages:
+error:0A000086:SSL routines::certificate verify failed
+ERROR - 2023-03-29 02:42:44 --> Email: sendWithSmtp throwed fsockopen(): SSL: An existing connection was forcibly closed by the remote host
+ERROR - 2023-03-29 02:47:00 --> Email: sendWithSmtp throwed fsockopen(): SSL: An existing connection was forcibly closed by the remote host
+ERROR - 2023-03-29 02:50:22 --> Email: sendWithSmtp throwed fsockopen(): SSL: An existing connection was forcibly closed by the remote host
+ERROR - 2023-03-29 02:51:32 --> Email: sendWithSmtp throwed fsockopen(): SSL: An existing connection was forcibly closed by the remote host
+ERROR - 2023-03-29 02:58:22 --> Email: sendWithSmtp throwed fsockopen(): SSL: An existing connection was forcibly closed by the remote host
+ERROR - 2023-03-29 03:42:51 --> Email: sendWithSmtp throwed fsockopen(): SSL operation failed with code 1. OpenSSL Error messages:
+error:0A000086:SSL routines::certificate verify failed
+ERROR - 2023-03-29 03:50:21 --> Email: sendWithSmtp throwed fsockopen(): SSL operation failed with code 1. OpenSSL Error messages:
+error:0A000086:SSL routines::certificate verify failed
+ERROR - 2023-03-29 03:54:34 --> Email: sendWithSmtp throwed fsockopen(): SSL operation failed with code 1. OpenSSL Error messages:
+error:0A000086:SSL routines::certificate verify failed
+ERROR - 2023-03-29 04:05:34 --> Email: sendWithSmtp throwed fsockopen(): php_network_getaddresses: getaddrinfo for ssl failed: No such host is known. 
+ERROR - 2023-03-29 04:15:15 --> Email: sendWithSmtp throwed fsockopen(): php_network_getaddresses: getaddrinfo for ssl failed: No such host is known. 
+ERROR - 2023-03-29 04:25:11 --> Email: sendWithSmtp throwed fsockopen(): php_network_getaddresses: getaddrinfo for ssl failed: No such host is known. 
+ERROR - 2023-03-29 04:25:50 --> Email: sendWithSmtp throwed fsockopen(): php_network_getaddresses: getaddrinfo for ssl failed: No such host is known. 
+ERROR - 2023-03-29 04:26:07 --> Email: sendWithSmtp throwed fsockopen(): php_network_getaddresses: getaddrinfo for ssl failed: No such host is known. 
+ERROR - 2023-03-29 04:29:54 --> Email: sendWithSmtp throwed fsockopen(): php_network_getaddresses: getaddrinfo for ssl failed: No such host is known. 
+ERROR - 2023-03-29 04:43:46 --> Email: sendWithSmtp throwed fsockopen(): SSL operation failed with code 1. OpenSSL Error messages:
+error:0A000086:SSL routines::certificate verify failed
+ERROR - 2023-03-29 04:45:33 --> Email: sendWithSmtp throwed fsockopen(): SSL operation failed with code 1. OpenSSL Error messages:
+error:0A000086:SSL routines::certificate verify failed

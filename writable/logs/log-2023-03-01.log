@@ -1,0 +1,104 @@
+CRITICAL - 2023-03-01 00:00:07 --> Trying to access array offset on value of type null
+#0 C:\xampp\htdocs\app_bank_sumut\app\Controllers\Home.php(479): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to acces...', 'C:\\xampp\\htdocs...', 479)
+#1 C:\xampp\htdocs\app_bank_sumut\system\CodeIgniter.php(832): App\Controllers\Home->prosesUpdateProfile('{"param":"foto"...', 'jpeg"}]}')
+#2 C:\xampp\htdocs\app_bank_sumut\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 C:\xampp\htdocs\app_bank_sumut\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\app_bank_sumut\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2023-03-01 00:02:01 --> Trying to access array offset on value of type null
+#0 C:\xampp\htdocs\app_bank_sumut\app\Controllers\Home.php(479): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to acces...', 'C:\\xampp\\htdocs...', 479)
+#1 C:\xampp\htdocs\app_bank_sumut\system\CodeIgniter.php(832): App\Controllers\Home->prosesUpdateProfile('{"param":"foto"...', 'jpeg"}')
+#2 C:\xampp\htdocs\app_bank_sumut\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 C:\xampp\htdocs\app_bank_sumut\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\app_bank_sumut\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2023-03-01 00:02:58 --> Trying to access array offset on value of type null
+#0 C:\xampp\htdocs\app_bank_sumut\app\Controllers\Home.php(479): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to acces...', 'C:\\xampp\\htdocs...', 479)
+#1 C:\xampp\htdocs\app_bank_sumut\system\CodeIgniter.php(832): App\Controllers\Home->prosesUpdateProfile('{"param":"foto"...', 'jpeg"}')
+#2 C:\xampp\htdocs\app_bank_sumut\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 C:\xampp\htdocs\app_bank_sumut\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\app_bank_sumut\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2023-03-01 00:04:02 --> Trying to access array offset on value of type null
+#0 C:\xampp\htdocs\app_bank_sumut\app\Controllers\Home.php(479): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to acces...', 'C:\\xampp\\htdocs...', 479)
+#1 C:\xampp\htdocs\app_bank_sumut\system\CodeIgniter.php(832): App\Controllers\Home->prosesUpdateProfile('{"param":"foto"...', 'jpeg"}')
+#2 C:\xampp\htdocs\app_bank_sumut\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 C:\xampp\htdocs\app_bank_sumut\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\app_bank_sumut\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2023-03-01 00:07:01 --> Trying to access array offset on value of type null
+#0 C:\xampp\htdocs\app_bank_sumut\app\Controllers\Home.php(479): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to acces...', 'C:\\xampp\\htdocs...', 479)
+#1 C:\xampp\htdocs\app_bank_sumut\system\CodeIgniter.php(832): App\Controllers\Home->prosesUpdateProfile('{"param":"foto"...', 'jpeg"}')
+#2 C:\xampp\htdocs\app_bank_sumut\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 C:\xampp\htdocs\app_bank_sumut\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\app_bank_sumut\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2023-03-01 00:08:27 --> Undefined array key "type"
+#0 C:\xampp\htdocs\app_bank_sumut\app\Controllers\Home.php(483): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'C:\\xampp\\htdocs...', 483)
+#1 C:\xampp\htdocs\app_bank_sumut\system\CodeIgniter.php(832): App\Controllers\Home->prosesUpdateProfile('{"param":"foto"...')
+#2 C:\xampp\htdocs\app_bank_sumut\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 C:\xampp\htdocs\app_bank_sumut\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\app_bank_sumut\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2023-03-01 00:10:39 --> Trying to access array offset on value of type null
+#0 C:\xampp\htdocs\app_bank_sumut\app\Controllers\Home.php(479): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to acces...', 'C:\\xampp\\htdocs...', 479)
+#1 C:\xampp\htdocs\app_bank_sumut\system\CodeIgniter.php(832): App\Controllers\Home->prosesUpdateProfile('{"param":"foto"...', 'jpeg"}')
+#2 C:\xampp\htdocs\app_bank_sumut\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 C:\xampp\htdocs\app_bank_sumut\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\app_bank_sumut\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2023-03-01 00:10:57 --> Trying to access array offset on value of type null
+#0 C:\xampp\htdocs\app_bank_sumut\app\Controllers\Home.php(479): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to acces...', 'C:\\xampp\\htdocs...', 479)
+#1 C:\xampp\htdocs\app_bank_sumut\system\CodeIgniter.php(832): App\Controllers\Home->prosesUpdateProfile('{"param":"foto"...', 'jpeg"}')
+#2 C:\xampp\htdocs\app_bank_sumut\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 C:\xampp\htdocs\app_bank_sumut\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\app_bank_sumut\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2023-03-01 00:18:02 --> Undefined array key "name"
+#0 C:\xampp\htdocs\app_bank_sumut\app\Controllers\Home.php(483): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'C:\\xampp\\htdocs...', 483)
+#1 C:\xampp\htdocs\app_bank_sumut\system\CodeIgniter.php(832): App\Controllers\Home->prosesUpdateProfile('{"param":"foto"...')
+#2 C:\xampp\htdocs\app_bank_sumut\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 C:\xampp\htdocs\app_bank_sumut\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\app_bank_sumut\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2023-03-01 00:19:58 --> Undefined array key "data"
+#0 C:\xampp\htdocs\app_bank_sumut\app\Controllers\Home.php(482): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'C:\\xampp\\htdocs...', 482)
+#1 C:\xampp\htdocs\app_bank_sumut\system\CodeIgniter.php(832): App\Controllers\Home->prosesUpdateProfile('{"param":"foto"...')
+#2 C:\xampp\htdocs\app_bank_sumut\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 C:\xampp\htdocs\app_bank_sumut\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\app_bank_sumut\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2023-03-01 00:20:33 --> Undefined array key "data"
+#0 C:\xampp\htdocs\app_bank_sumut\app\Controllers\Home.php(482): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'C:\\xampp\\htdocs...', 482)
+#1 C:\xampp\htdocs\app_bank_sumut\system\CodeIgniter.php(832): App\Controllers\Home->prosesUpdateProfile('{"param":"foto"...')
+#2 C:\xampp\htdocs\app_bank_sumut\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 C:\xampp\htdocs\app_bank_sumut\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\app_bank_sumut\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2023-03-01 00:21:08 --> Trying to access array offset on value of type null
+#0 C:\xampp\htdocs\app_bank_sumut\app\Controllers\Home.php(481): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to acces...', 'C:\\xampp\\htdocs...', 481)
+#1 C:\xampp\htdocs\app_bank_sumut\system\CodeIgniter.php(832): App\Controllers\Home->prosesUpdateProfile('{"param":"foto"...', 'fakepath', 'user-3.jpg"}')
+#2 C:\xampp\htdocs\app_bank_sumut\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 C:\xampp\htdocs\app_bank_sumut\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\app_bank_sumut\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2023-03-01 00:22:03 --> Array to string conversion
+#0 C:\xampp\htdocs\app_bank_sumut\app\Controllers\Home.php(485): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Array to string...', 'C:\\xampp\\htdocs...', 485)
+#1 C:\xampp\htdocs\app_bank_sumut\system\CodeIgniter.php(832): App\Controllers\Home->prosesUpdateProfile('{"param":"foto"...')
+#2 C:\xampp\htdocs\app_bank_sumut\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 C:\xampp\htdocs\app_bank_sumut\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\app_bank_sumut\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2023-03-01 00:23:08 --> Array to string conversion
+#0 C:\xampp\htdocs\app_bank_sumut\app\Controllers\Home.php(485): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Array to string...', 'C:\\xampp\\htdocs...', 485)
+#1 C:\xampp\htdocs\app_bank_sumut\system\CodeIgniter.php(832): App\Controllers\Home->prosesUpdateProfile('{"param":"foto"...')
+#2 C:\xampp\htdocs\app_bank_sumut\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 C:\xampp\htdocs\app_bank_sumut\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\app_bank_sumut\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2023-03-01 00:29:13 --> Too few arguments to function App\Controllers\Home::prosesUpdateProfile(), 0 passed in C:\xampp\htdocs\app_bank_sumut\system\CodeIgniter.php on line 832 and exactly 1 expected
+#0 C:\xampp\htdocs\app_bank_sumut\system\CodeIgniter.php(832): App\Controllers\Home->prosesUpdateProfile()
+#1 C:\xampp\htdocs\app_bank_sumut\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#2 C:\xampp\htdocs\app_bank_sumut\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\app_bank_sumut\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}

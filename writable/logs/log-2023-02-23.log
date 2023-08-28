@@ -1,0 +1,180 @@
+ERROR - 2023-02-23 01:44:50 --> Table 'bank_sumut.user_servers' doesn't exist
+CRITICAL - 2023-02-23 01:44:50 --> Table 'bank_sumut.user_servers' doesn't exist
+#0 C:\xampp\htdocs\app_bank_sumut\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT *\nFROM `...', 0)
+#1 C:\xampp\htdocs\app_bank_sumut\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\xampp\htdocs\app_bank_sumut\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\xampp\htdocs\app_bank_sumut\system\Database\BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\app_bank_sumut\system\Model.php(183): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\app_bank_sumut\system\BaseModel.php(584): CodeIgniter\Model->doFindAll(0, 0)
+#6 C:\xampp\htdocs\app_bank_sumut\app\Controllers\Home.php(75): CodeIgniter\BaseModel->findAll()
+#7 C:\xampp\htdocs\app_bank_sumut\system\CodeIgniter.php(832): App\Controllers\Home->login()
+#8 C:\xampp\htdocs\app_bank_sumut\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#9 C:\xampp\htdocs\app_bank_sumut\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\app_bank_sumut\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#11 {main}
+CRITICAL - 2023-02-23 07:21:00 --> file_get_contents(): Read of 29366 bytes failed with errno=13 Permission denied
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(8, 'file_get_conten...', 'C:\\xampp\\htdocs...', 80)
+#1 C:\xampp\htdocs\app_bank_sumut\system\Debug\Toolbar\Collectors\History.php(80): file_get_contents('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\app_bank_sumut\system\Debug\Toolbar.php(485): CodeIgniter\Debug\Toolbar\Collectors\History->setFiles(1677158459, 20)
+#3 C:\xampp\htdocs\app_bank_sumut\system\Debug\Toolbar.php(464): CodeIgniter\Debug\Toolbar->format(Array, 'html')
+#4 C:\xampp\htdocs\app_bank_sumut\app\Config\Events.php(48): CodeIgniter\Debug\Toolbar->respond()
+#5 C:\xampp\htdocs\app_bank_sumut\system\Events\Events.php(149): CodeIgniter\Events\Events::Config\{closure}()
+#6 C:\xampp\htdocs\app_bank_sumut\system\CodeIgniter.php(308): CodeIgniter\Events\Events::trigger('pre_system')
+#7 C:\xampp\htdocs\app_bank_sumut\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2023-02-23 07:33:31 --> Undefined variable $color
+#0 C:\xampp\htdocs\app_bank_sumut\app\Views\dashboard_viewServer.php(54): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 54)
+#1 C:\xampp\htdocs\app_bank_sumut\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\app_bank_sumut\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\app_bank_sumut\system\Common.php(1089): CodeIgniter\View\View->render('dashboard_viewS...', Array, true)
+#4 C:\xampp\htdocs\app_bank_sumut\app\Controllers\Home.php(312): view('dashboard_viewS...', Array)
+#5 C:\xampp\htdocs\app_bank_sumut\system\CodeIgniter.php(832): App\Controllers\Home->viewServer('27089')
+#6 C:\xampp\htdocs\app_bank_sumut\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 C:\xampp\htdocs\app_bank_sumut\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\app_bank_sumut\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2023-02-23 09:17:31 --> Undefined variable $rowserver
+#0 C:\xampp\htdocs\app_bank_sumut\app\Views\dashboard_viewServer.php(82): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 82)
+#1 C:\xampp\htdocs\app_bank_sumut\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\app_bank_sumut\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\app_bank_sumut\system\Common.php(1089): CodeIgniter\View\View->render('dashboard_viewS...', Array, true)
+#4 C:\xampp\htdocs\app_bank_sumut\app\Controllers\Home.php(312): view('dashboard_viewS...', Array)
+#5 C:\xampp\htdocs\app_bank_sumut\system\CodeIgniter.php(832): App\Controllers\Home->viewServer('27089')
+#6 C:\xampp\htdocs\app_bank_sumut\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 C:\xampp\htdocs\app_bank_sumut\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\app_bank_sumut\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2023-02-23 09:23:14 --> Undefined variable $rowserver
+#0 C:\xampp\htdocs\app_bank_sumut\app\Views\dashboard_viewServer.php(63): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 63)
+#1 C:\xampp\htdocs\app_bank_sumut\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\app_bank_sumut\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\app_bank_sumut\system\Common.php(1089): CodeIgniter\View\View->render('dashboard_viewS...', Array, true)
+#4 C:\xampp\htdocs\app_bank_sumut\app\Controllers\Home.php(312): view('dashboard_viewS...', Array)
+#5 C:\xampp\htdocs\app_bank_sumut\system\CodeIgniter.php(832): App\Controllers\Home->viewServer('27089')
+#6 C:\xampp\htdocs\app_bank_sumut\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 C:\xampp\htdocs\app_bank_sumut\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\app_bank_sumut\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2023-02-23 11:10:46 --> CodeIgniter\BaseModel::transformDataToArray(): Return value must be of type array, string returned
+#0 C:\xampp\htdocs\app_bank_sumut\system\BaseModel.php(832): CodeIgniter\BaseModel->transformDataToArray('27089', 'update')
+#1 C:\xampp\htdocs\app_bank_sumut\system\Model.php(651): CodeIgniter\BaseModel->update(Array, '27089')
+#2 C:\xampp\htdocs\app_bank_sumut\app\Controllers\Home.php(330): CodeIgniter\Model->update(Array, '27089')
+#3 C:\xampp\htdocs\app_bank_sumut\system\CodeIgniter.php(832): App\Controllers\Home->turnOnServer('27089')
+#4 C:\xampp\htdocs\app_bank_sumut\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 C:\xampp\htdocs\app_bank_sumut\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\app_bank_sumut\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2023-02-23 11:11:52 --> CodeIgniter\BaseModel::transformDataToArray(): Return value must be of type array, string returned
+#0 C:\xampp\htdocs\app_bank_sumut\system\BaseModel.php(832): CodeIgniter\BaseModel->transformDataToArray('27089', 'update')
+#1 C:\xampp\htdocs\app_bank_sumut\system\Model.php(651): CodeIgniter\BaseModel->update(Array, '27089')
+#2 C:\xampp\htdocs\app_bank_sumut\app\Controllers\Home.php(330): CodeIgniter\Model->update(Array, '27089')
+#3 C:\xampp\htdocs\app_bank_sumut\system\CodeIgniter.php(832): App\Controllers\Home->turnOnServer('27089')
+#4 C:\xampp\htdocs\app_bank_sumut\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 C:\xampp\htdocs\app_bank_sumut\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\app_bank_sumut\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2023-02-23 11:12:00 --> CodeIgniter\BaseModel::transformDataToArray(): Return value must be of type array, string returned
+#0 C:\xampp\htdocs\app_bank_sumut\system\BaseModel.php(832): CodeIgniter\BaseModel->transformDataToArray('27089', 'update')
+#1 C:\xampp\htdocs\app_bank_sumut\system\Model.php(651): CodeIgniter\BaseModel->update(Array, '27089')
+#2 C:\xampp\htdocs\app_bank_sumut\app\Controllers\Home.php(330): CodeIgniter\Model->update(Array, '27089')
+#3 C:\xampp\htdocs\app_bank_sumut\system\CodeIgniter.php(832): App\Controllers\Home->turnOnServer('27089')
+#4 C:\xampp\htdocs\app_bank_sumut\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 C:\xampp\htdocs\app_bank_sumut\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\app_bank_sumut\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+ERROR - 2023-02-23 11:15:09 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '0 = :0:
+WHERE `id_user` = :id_user:' at line 1
+CRITICAL - 2023-02-23 11:15:09 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '0 = :0:
+WHERE `id_user` = :id_user:' at line 1
+#0 C:\xampp\htdocs\app_bank_sumut\system\Database\MySQLi\Connection.php(292): mysqli->query('UPDATE `user_se...', 0)
+#1 C:\xampp\htdocs\app_bank_sumut\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('UPDATE `user_se...')
+#2 C:\xampp\htdocs\app_bank_sumut\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('UPDATE `user_se...')
+#3 C:\xampp\htdocs\app_bank_sumut\system\Database\BaseBuilder.php(1913): CodeIgniter\Database\BaseConnection->query('UPDATE `user_se...', Array, false)
+#4 C:\xampp\htdocs\app_bank_sumut\app\Models\UserServersModel.php(38): CodeIgniter\Database\BaseBuilder->update(Array, Array)
+#5 C:\xampp\htdocs\app_bank_sumut\app\Controllers\Home.php(330): App\Models\UserServersModel->updateDataUser(Array, '27089')
+#6 C:\xampp\htdocs\app_bank_sumut\system\CodeIgniter.php(832): App\Controllers\Home->turnOnServer('27089')
+#7 C:\xampp\htdocs\app_bank_sumut\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#8 C:\xampp\htdocs\app_bank_sumut\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\app_bank_sumut\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#10 {main}
+ERROR - 2023-02-23 11:15:55 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '0 = :0:
+WHERE `id_user` = :id_user:' at line 1
+CRITICAL - 2023-02-23 11:15:55 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '0 = :0:
+WHERE `id_user` = :id_user:' at line 1
+#0 C:\xampp\htdocs\app_bank_sumut\system\Database\MySQLi\Connection.php(292): mysqli->query('UPDATE `user_se...', 0)
+#1 C:\xampp\htdocs\app_bank_sumut\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('UPDATE `user_se...')
+#2 C:\xampp\htdocs\app_bank_sumut\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('UPDATE `user_se...')
+#3 C:\xampp\htdocs\app_bank_sumut\system\Database\BaseBuilder.php(1913): CodeIgniter\Database\BaseConnection->query('UPDATE `user_se...', Array, false)
+#4 C:\xampp\htdocs\app_bank_sumut\app\Models\UserServersModel.php(38): CodeIgniter\Database\BaseBuilder->update(Array, Array)
+#5 C:\xampp\htdocs\app_bank_sumut\app\Controllers\Home.php(330): App\Models\UserServersModel->updateDataUser(Array, 'Guest_ElRcT_514...')
+#6 C:\xampp\htdocs\app_bank_sumut\system\CodeIgniter.php(832): App\Controllers\Home->turnOnServer('Guest_ElRcT_514...')
+#7 C:\xampp\htdocs\app_bank_sumut\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#8 C:\xampp\htdocs\app_bank_sumut\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\app_bank_sumut\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#10 {main}
+ERROR - 2023-02-23 11:17:04 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '0 = :0:
+WHERE `id_user` = :id_user:' at line 1
+CRITICAL - 2023-02-23 11:17:04 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '0 = :0:
+WHERE `id_user` = :id_user:' at line 1
+#0 C:\xampp\htdocs\app_bank_sumut\system\Database\MySQLi\Connection.php(292): mysqli->query('UPDATE `user_se...', 0)
+#1 C:\xampp\htdocs\app_bank_sumut\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('UPDATE `user_se...')
+#2 C:\xampp\htdocs\app_bank_sumut\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('UPDATE `user_se...')
+#3 C:\xampp\htdocs\app_bank_sumut\system\Database\BaseBuilder.php(1913): CodeIgniter\Database\BaseConnection->query('UPDATE `user_se...', Array, false)
+#4 C:\xampp\htdocs\app_bank_sumut\app\Models\UserServersModel.php(38): CodeIgniter\Database\BaseBuilder->update(Array, Array)
+#5 C:\xampp\htdocs\app_bank_sumut\app\Controllers\Home.php(330): App\Models\UserServersModel->updateDataUser(Array, 'Guest_ElRcT_514...')
+#6 C:\xampp\htdocs\app_bank_sumut\system\CodeIgniter.php(832): App\Controllers\Home->turnOnServer('Guest_ElRcT_514...')
+#7 C:\xampp\htdocs\app_bank_sumut\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#8 C:\xampp\htdocs\app_bank_sumut\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\app_bank_sumut\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#10 {main}
+ERROR - 2023-02-23 11:17:41 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '0 = :0:
+WHERE `id_user` = :id_user:' at line 1
+CRITICAL - 2023-02-23 11:17:41 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '0 = :0:
+WHERE `id_user` = :id_user:' at line 1
+#0 C:\xampp\htdocs\app_bank_sumut\system\Database\MySQLi\Connection.php(292): mysqli->query('UPDATE `user_se...', 0)
+#1 C:\xampp\htdocs\app_bank_sumut\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('UPDATE `user_se...')
+#2 C:\xampp\htdocs\app_bank_sumut\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('UPDATE `user_se...')
+#3 C:\xampp\htdocs\app_bank_sumut\system\Database\BaseBuilder.php(1913): CodeIgniter\Database\BaseConnection->query('UPDATE `user_se...', Array, false)
+#4 C:\xampp\htdocs\app_bank_sumut\app\Models\UserServersModel.php(38): CodeIgniter\Database\BaseBuilder->update(Array, Array)
+#5 C:\xampp\htdocs\app_bank_sumut\app\Controllers\Home.php(330): App\Models\UserServersModel->updateDataUser(Array, 'Guest_ElRcT_514...')
+#6 C:\xampp\htdocs\app_bank_sumut\system\CodeIgniter.php(832): App\Controllers\Home->turnOnServer('Guest_ElRcT_514...')
+#7 C:\xampp\htdocs\app_bank_sumut\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#8 C:\xampp\htdocs\app_bank_sumut\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\app_bank_sumut\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2023-02-23 11:19:08 --> Too few arguments to function App\Controllers\Home::viewServer(), 0 passed in C:\xampp\htdocs\app_bank_sumut\system\CodeIgniter.php on line 832 and exactly 1 expected
+#0 C:\xampp\htdocs\app_bank_sumut\system\CodeIgniter.php(832): App\Controllers\Home->viewServer()
+#1 C:\xampp\htdocs\app_bank_sumut\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#2 C:\xampp\htdocs\app_bank_sumut\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\app_bank_sumut\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2023-02-23 11:21:15 --> Too few arguments to function App\Controllers\Home::viewServer(), 0 passed in C:\xampp\htdocs\app_bank_sumut\system\CodeIgniter.php on line 832 and exactly 1 expected
+#0 C:\xampp\htdocs\app_bank_sumut\system\CodeIgniter.php(832): App\Controllers\Home->viewServer()
+#1 C:\xampp\htdocs\app_bank_sumut\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#2 C:\xampp\htdocs\app_bank_sumut\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\app_bank_sumut\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2023-02-23 11:23:44 --> Too few arguments to function App\Controllers\Home::viewServer(), 0 passed in C:\xampp\htdocs\app_bank_sumut\system\CodeIgniter.php on line 832 and exactly 1 expected
+#0 C:\xampp\htdocs\app_bank_sumut\system\CodeIgniter.php(832): App\Controllers\Home->viewServer()
+#1 C:\xampp\htdocs\app_bank_sumut\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#2 C:\xampp\htdocs\app_bank_sumut\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\app_bank_sumut\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2023-02-23 11:26:18 --> Too few arguments to function App\Controllers\Home::viewServer(), 0 passed in C:\xampp\htdocs\app_bank_sumut\system\CodeIgniter.php on line 832 and exactly 1 expected
+#0 C:\xampp\htdocs\app_bank_sumut\system\CodeIgniter.php(832): App\Controllers\Home->viewServer()
+#1 C:\xampp\htdocs\app_bank_sumut\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#2 C:\xampp\htdocs\app_bank_sumut\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\app_bank_sumut\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2023-02-23 11:26:40 --> Object of class CodeIgniter\HTTP\RedirectResponse could not be converted to string
+#0 C:\xampp\htdocs\app_bank_sumut\system\CodeIgniter.php(832): App\Controllers\Home->turnOnServer('Guest_lPjUE_247...')
+#1 C:\xampp\htdocs\app_bank_sumut\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#2 C:\xampp\htdocs\app_bank_sumut\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\app_bank_sumut\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2023-02-23 11:29:22 --> Too few arguments to function App\Controllers\Home::viewServer(), 0 passed in C:\xampp\htdocs\app_bank_sumut\system\CodeIgniter.php on line 832 and exactly 1 expected
+#0 C:\xampp\htdocs\app_bank_sumut\system\CodeIgniter.php(832): App\Controllers\Home->viewServer()
+#1 C:\xampp\htdocs\app_bank_sumut\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#2 C:\xampp\htdocs\app_bank_sumut\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\app_bank_sumut\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}

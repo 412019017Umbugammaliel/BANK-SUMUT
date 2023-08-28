@@ -1,0 +1,68 @@
+CRITICAL - 2023-03-24 01:17:07 --> Undefined variable $errorMsg
+#0 C:\xampp\htdocs\app_bank_sumut\app\Views\dashboard_chat.php(99): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 99)
+#1 C:\xampp\htdocs\app_bank_sumut\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\app_bank_sumut\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\app_bank_sumut\system\Common.php(1089): CodeIgniter\View\View->render('dashboard_chat....', Array, true)
+#4 C:\xampp\htdocs\app_bank_sumut\app\Controllers\Home.php(457): view('dashboard_chat....')
+#5 C:\xampp\htdocs\app_bank_sumut\system\CodeIgniter.php(832): App\Controllers\Home->chat()
+#6 C:\xampp\htdocs\app_bank_sumut\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 C:\xampp\htdocs\app_bank_sumut\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\app_bank_sumut\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2023-03-24 01:17:33 --> Undefined variable $errorMsg
+#0 C:\xampp\htdocs\app_bank_sumut\app\Views\dashboard_chat.php(99): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 99)
+#1 C:\xampp\htdocs\app_bank_sumut\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\app_bank_sumut\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\app_bank_sumut\system\Common.php(1089): CodeIgniter\View\View->render('dashboard_chat....', Array, true)
+#4 C:\xampp\htdocs\app_bank_sumut\app\Controllers\Home.php(457): view('dashboard_chat....')
+#5 C:\xampp\htdocs\app_bank_sumut\system\CodeIgniter.php(832): App\Controllers\Home->chat()
+#6 C:\xampp\htdocs\app_bank_sumut\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 C:\xampp\htdocs\app_bank_sumut\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\app_bank_sumut\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2023-03-24 01:20:46 --> Array to string conversion
+#0 C:\xampp\htdocs\app_bank_sumut\app\Views\dashboard_chat.php(100): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Array to string...', 'C:\\xampp\\htdocs...', 100)
+#1 C:\xampp\htdocs\app_bank_sumut\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\app_bank_sumut\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\app_bank_sumut\system\Common.php(1089): CodeIgniter\View\View->render('dashboard_chat....', Array, true)
+#4 C:\xampp\htdocs\app_bank_sumut\app\Controllers\Home.php(457): view('dashboard_chat....')
+#5 C:\xampp\htdocs\app_bank_sumut\system\CodeIgniter.php(832): App\Controllers\Home->chat()
+#6 C:\xampp\htdocs\app_bank_sumut\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 C:\xampp\htdocs\app_bank_sumut\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\app_bank_sumut\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2023-03-24 03:46:17 --> Illegal offset type in isset or empty
+#0 C:\xampp\htdocs\app_bank_sumut\system\CodeIgniter.php(832): App\Controllers\Home->store()
+#1 C:\xampp\htdocs\app_bank_sumut\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#2 C:\xampp\htdocs\app_bank_sumut\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\app_bank_sumut\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2023-03-24 03:46:44 --> Illegal offset type in isset or empty
+#0 C:\xampp\htdocs\app_bank_sumut\system\CodeIgniter.php(832): App\Controllers\Home->store()
+#1 C:\xampp\htdocs\app_bank_sumut\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#2 C:\xampp\htdocs\app_bank_sumut\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\app_bank_sumut\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2023-03-24 03:52:23 --> filesize(): stat failed for file
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'filesize(): sta...', 'C:\\xampp\\htdocs...', 493)
+#1 C:\xampp\htdocs\app_bank_sumut\app\Controllers\Home.php(493): filesize('file')
+#2 C:\xampp\htdocs\app_bank_sumut\system\CodeIgniter.php(832): App\Controllers\Home->store()
+#3 C:\xampp\htdocs\app_bank_sumut\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#4 C:\xampp\htdocs\app_bank_sumut\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\app_bank_sumut\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+ERROR - 2023-03-24 23:45:50 --> Duplicate entry '0' for key 'PRIMARY'
+CRITICAL - 2023-03-24 23:45:50 --> Duplicate entry '0' for key 'PRIMARY'
+#0 C:\xampp\htdocs\app_bank_sumut\system\Database\MySQLi\Connection.php(292): mysqli->query('INSERT INTO `ch...', 0)
+#1 C:\xampp\htdocs\app_bank_sumut\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `ch...')
+#2 C:\xampp\htdocs\app_bank_sumut\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `ch...')
+#3 C:\xampp\htdocs\app_bank_sumut\system\Database\BaseBuilder.php(1771): CodeIgniter\Database\BaseConnection->query('INSERT INTO `ch...', Array, false)
+#4 C:\xampp\htdocs\app_bank_sumut\system\Model.php(239): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\xampp\htdocs\app_bank_sumut\system\BaseModel.php(738): CodeIgniter\Model->doInsert(Array)
+#6 C:\xampp\htdocs\app_bank_sumut\system\Model.php(625): CodeIgniter\BaseModel->insert(Array, true)
+#7 C:\xampp\htdocs\app_bank_sumut\app\Controllers\Home.php(508): CodeIgniter\Model->insert(Array)
+#8 C:\xampp\htdocs\app_bank_sumut\system\CodeIgniter.php(832): App\Controllers\Home->store()
+#9 C:\xampp\htdocs\app_bank_sumut\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#10 C:\xampp\htdocs\app_bank_sumut\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xampp\htdocs\app_bank_sumut\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#12 {main}

@@ -1,0 +1,179 @@
+CRITICAL - 2023-04-06 04:23:48 --> Undefined variable $hidden
+#0 C:\xampp\htdocs\app_bank_sumut\app\Views\navigasi.php(47): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 47)
+#1 C:\xampp\htdocs\app_bank_sumut\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\app_bank_sumut\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\app_bank_sumut\system\Common.php(1089): CodeIgniter\View\View->render('navigasi.php', Array, true)
+#4 C:\xampp\htdocs\app_bank_sumut\app\Controllers\Home.php(575): view('navigasi.php')
+#5 C:\xampp\htdocs\app_bank_sumut\system\CodeIgniter.php(832): App\Controllers\Home->logActivity()
+#6 C:\xampp\htdocs\app_bank_sumut\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 C:\xampp\htdocs\app_bank_sumut\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\app_bank_sumut\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2023-04-06 06:48:56 --> Too few arguments to function CodeIgniter\Database\BaseBuilder::where(), 0 passed in C:\xampp\htdocs\app_bank_sumut\system\Model.php on line 728 and at least 1 expected
+#0 C:\xampp\htdocs\app_bank_sumut\system\Model.php(728): CodeIgniter\Database\BaseBuilder->where()
+#1 C:\xampp\htdocs\app_bank_sumut\app\Controllers\Home.php(616): CodeIgniter\Model->__call('where', Array)
+#2 C:\xampp\htdocs\app_bank_sumut\system\CodeIgniter.php(832): App\Controllers\Home->logActivity()
+#3 C:\xampp\htdocs\app_bank_sumut\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#4 C:\xampp\htdocs\app_bank_sumut\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\app_bank_sumut\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2023-04-06 06:49:38 --> Too few arguments to function CodeIgniter\Database\BaseBuilder::where(), 0 passed in C:\xampp\htdocs\app_bank_sumut\system\Model.php on line 728 and at least 1 expected
+#0 C:\xampp\htdocs\app_bank_sumut\system\Model.php(728): CodeIgniter\Database\BaseBuilder->where()
+#1 C:\xampp\htdocs\app_bank_sumut\app\Controllers\Home.php(615): CodeIgniter\Model->__call('where', Array)
+#2 C:\xampp\htdocs\app_bank_sumut\system\CodeIgniter.php(832): App\Controllers\Home->logActivity()
+#3 C:\xampp\htdocs\app_bank_sumut\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#4 C:\xampp\htdocs\app_bank_sumut\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\app_bank_sumut\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2023-04-06 06:52:30 --> Too few arguments to function CodeIgniter\Database\BaseBuilder::where(), 0 passed in C:\xampp\htdocs\app_bank_sumut\system\Model.php on line 728 and at least 1 expected
+#0 C:\xampp\htdocs\app_bank_sumut\system\Model.php(728): CodeIgniter\Database\BaseBuilder->where()
+#1 C:\xampp\htdocs\app_bank_sumut\app\Controllers\Home.php(615): CodeIgniter\Model->__call('where', Array)
+#2 C:\xampp\htdocs\app_bank_sumut\system\CodeIgniter.php(832): App\Controllers\Home->logActivity()
+#3 C:\xampp\htdocs\app_bank_sumut\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#4 C:\xampp\htdocs\app_bank_sumut\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\app_bank_sumut\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2023-04-06 06:52:37 --> Too few arguments to function CodeIgniter\Database\BaseBuilder::where(), 0 passed in C:\xampp\htdocs\app_bank_sumut\system\Model.php on line 728 and at least 1 expected
+#0 C:\xampp\htdocs\app_bank_sumut\system\Model.php(728): CodeIgniter\Database\BaseBuilder->where()
+#1 C:\xampp\htdocs\app_bank_sumut\app\Controllers\Home.php(615): CodeIgniter\Model->__call('where', Array)
+#2 C:\xampp\htdocs\app_bank_sumut\system\CodeIgniter.php(832): App\Controllers\Home->logActivity()
+#3 C:\xampp\htdocs\app_bank_sumut\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#4 C:\xampp\htdocs\app_bank_sumut\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\app_bank_sumut\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2023-04-06 06:52:46 --> Too few arguments to function CodeIgniter\Database\BaseBuilder::where(), 0 passed in C:\xampp\htdocs\app_bank_sumut\system\Model.php on line 728 and at least 1 expected
+#0 C:\xampp\htdocs\app_bank_sumut\system\Model.php(728): CodeIgniter\Database\BaseBuilder->where()
+#1 C:\xampp\htdocs\app_bank_sumut\app\Controllers\Home.php(615): CodeIgniter\Model->__call('where', Array)
+#2 C:\xampp\htdocs\app_bank_sumut\system\CodeIgniter.php(832): App\Controllers\Home->logActivity()
+#3 C:\xampp\htdocs\app_bank_sumut\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#4 C:\xampp\htdocs\app_bank_sumut\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\app_bank_sumut\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+ERROR - 2023-04-06 07:13:30 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'WHERE category ='Level_4'' at line 1
+CRITICAL - 2023-04-06 07:13:30 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'WHERE category ='Level_4'' at line 1
+#0 C:\xampp\htdocs\app_bank_sumut\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT id_log, ...', 0)
+#1 C:\xampp\htdocs\app_bank_sumut\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT id_log, ...')
+#2 C:\xampp\htdocs\app_bank_sumut\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT id_log, ...')
+#3 C:\xampp\htdocs\app_bank_sumut\app\Controllers\Home.php(615): CodeIgniter\Database\BaseConnection->query('SELECT id_log, ...')
+#4 C:\xampp\htdocs\app_bank_sumut\system\CodeIgniter.php(832): App\Controllers\Home->logActivity()
+#5 C:\xampp\htdocs\app_bank_sumut\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#6 C:\xampp\htdocs\app_bank_sumut\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\app_bank_sumut\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2023-04-06 07:20:18 --> Undefined variable $logactivity
+#0 C:\xampp\htdocs\app_bank_sumut\app\Views\dashboard_logActivity.php(50): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 50)
+#1 C:\xampp\htdocs\app_bank_sumut\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\app_bank_sumut\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\app_bank_sumut\system\Common.php(1089): CodeIgniter\View\View->render('dashboard_logAc...', Array, true)
+#4 C:\xampp\htdocs\app_bank_sumut\app\Controllers\Home.php(623): view('dashboard_logAc...', Array)
+#5 C:\xampp\htdocs\app_bank_sumut\system\CodeIgniter.php(832): App\Controllers\Home->logActivity()
+#6 C:\xampp\htdocs\app_bank_sumut\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 C:\xampp\htdocs\app_bank_sumut\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\app_bank_sumut\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2023-04-06 07:20:35 --> Undefined variable $showdata
+#0 C:\xampp\htdocs\app_bank_sumut\app\Views\dashboard_logActivity.php(50): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 50)
+#1 C:\xampp\htdocs\app_bank_sumut\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\app_bank_sumut\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\app_bank_sumut\system\Common.php(1089): CodeIgniter\View\View->render('dashboard_logAc...', Array, true)
+#4 C:\xampp\htdocs\app_bank_sumut\app\Controllers\Home.php(623): view('dashboard_logAc...', Array)
+#5 C:\xampp\htdocs\app_bank_sumut\system\CodeIgniter.php(832): App\Controllers\Home->logActivity()
+#6 C:\xampp\htdocs\app_bank_sumut\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 C:\xampp\htdocs\app_bank_sumut\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\app_bank_sumut\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2023-04-06 07:21:25 --> Undefined variable $showdata
+#0 C:\xampp\htdocs\app_bank_sumut\app\Views\dashboard_logActivity.php(50): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 50)
+#1 C:\xampp\htdocs\app_bank_sumut\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\app_bank_sumut\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\app_bank_sumut\system\Common.php(1089): CodeIgniter\View\View->render('dashboard_logAc...', Array, true)
+#4 C:\xampp\htdocs\app_bank_sumut\app\Controllers\Home.php(623): view('dashboard_logAc...', Array)
+#5 C:\xampp\htdocs\app_bank_sumut\system\CodeIgniter.php(832): App\Controllers\Home->logActivity()
+#6 C:\xampp\htdocs\app_bank_sumut\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 C:\xampp\htdocs\app_bank_sumut\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\app_bank_sumut\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2023-04-06 07:21:45 --> Cannot use object of type stdClass as array
+#0 C:\xampp\htdocs\app_bank_sumut\system\View\View.php(210): include()
+#1 C:\xampp\htdocs\app_bank_sumut\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#2 C:\xampp\htdocs\app_bank_sumut\system\Common.php(1089): CodeIgniter\View\View->render('dashboard_logAc...', Array, true)
+#3 C:\xampp\htdocs\app_bank_sumut\app\Controllers\Home.php(623): view('dashboard_logAc...', Array)
+#4 C:\xampp\htdocs\app_bank_sumut\system\CodeIgniter.php(832): App\Controllers\Home->logActivity()
+#5 C:\xampp\htdocs\app_bank_sumut\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#6 C:\xampp\htdocs\app_bank_sumut\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\app_bank_sumut\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2023-04-06 07:22:24 --> Cannot access offset of type string on string
+#0 C:\xampp\htdocs\app_bank_sumut\system\View\View.php(210): include()
+#1 C:\xampp\htdocs\app_bank_sumut\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#2 C:\xampp\htdocs\app_bank_sumut\system\Common.php(1089): CodeIgniter\View\View->render('dashboard_logAc...', Array, true)
+#3 C:\xampp\htdocs\app_bank_sumut\app\Controllers\Home.php(625): view('dashboard_logAc...', Array)
+#4 C:\xampp\htdocs\app_bank_sumut\system\CodeIgniter.php(832): App\Controllers\Home->logActivity()
+#5 C:\xampp\htdocs\app_bank_sumut\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#6 C:\xampp\htdocs\app_bank_sumut\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\app_bank_sumut\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2023-04-06 07:53:35 --> Undefined array key "read_notif"
+#0 C:\xampp\htdocs\app_bank_sumut\app\Views\dashboard_logActivity.php(52): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'C:\\xampp\\htdocs...', 52)
+#1 C:\xampp\htdocs\app_bank_sumut\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\app_bank_sumut\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\app_bank_sumut\system\Common.php(1089): CodeIgniter\View\View->render('dashboard_logAc...', Array, true)
+#4 C:\xampp\htdocs\app_bank_sumut\app\Controllers\Home.php(621): view('dashboard_logAc...', Array)
+#5 C:\xampp\htdocs\app_bank_sumut\system\CodeIgniter.php(832): App\Controllers\Home->logActivity()
+#6 C:\xampp\htdocs\app_bank_sumut\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 C:\xampp\htdocs\app_bank_sumut\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\app_bank_sumut\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2023-04-06 13:42:06 -->  is not a valid rule.
+#0 C:\xampp\htdocs\app_bank_sumut\system\Validation\Validation.php(300): CodeIgniter\Validation\Exceptions\ValidationException::forRuleNotFound('')
+#1 C:\xampp\htdocs\app_bank_sumut\system\Validation\Validation.php(157): CodeIgniter\Validation\Validation->processRules('file', 'file', NULL, Array, Array)
+#2 C:\xampp\htdocs\app_bank_sumut\system\Controller.php(160): CodeIgniter\Validation\Validation->run()
+#3 C:\xampp\htdocs\app_bank_sumut\app\Controllers\Home.php(716): CodeIgniter\Controller->validate(Array)
+#4 C:\xampp\htdocs\app_bank_sumut\system\CodeIgniter.php(832): App\Controllers\Home->storeChat()
+#5 C:\xampp\htdocs\app_bank_sumut\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#6 C:\xampp\htdocs\app_bank_sumut\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\app_bank_sumut\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2023-04-06 13:42:30 --> The original file is not a valid file.
+#0 C:\xampp\htdocs\app_bank_sumut\system\HTTP\Files\UploadedFile.php(137): CodeIgniter\HTTP\Exceptions\HTTPException::forInvalidFile()
+#1 C:\xampp\htdocs\app_bank_sumut\app\Controllers\Home.php(729): CodeIgniter\HTTP\Files\UploadedFile->move('C:\\xampp\\htdocs...', '')
+#2 C:\xampp\htdocs\app_bank_sumut\system\CodeIgniter.php(832): App\Controllers\Home->storeChat()
+#3 C:\xampp\htdocs\app_bank_sumut\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#4 C:\xampp\htdocs\app_bank_sumut\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\app_bank_sumut\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2023-04-06 13:43:48 --> The original file is not a valid file.
+#0 C:\xampp\htdocs\app_bank_sumut\system\HTTP\Files\UploadedFile.php(137): CodeIgniter\HTTP\Exceptions\HTTPException::forInvalidFile()
+#1 C:\xampp\htdocs\app_bank_sumut\app\Controllers\Home.php(729): CodeIgniter\HTTP\Files\UploadedFile->move('C:\\xampp\\htdocs...', '')
+#2 C:\xampp\htdocs\app_bank_sumut\system\CodeIgniter.php(832): App\Controllers\Home->storeChat()
+#3 C:\xampp\htdocs\app_bank_sumut\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#4 C:\xampp\htdocs\app_bank_sumut\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\app_bank_sumut\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+ERROR - 2023-04-06 22:41:01 --> Unknown column 'status_read' in 'field list'
+CRITICAL - 2023-04-06 22:41:01 --> Unknown column 'status_read' in 'field list'
+#0 C:\xampp\htdocs\app_bank_sumut\system\Database\MySQLi\Connection.php(292): mysqli->query('UPDATE `notif_c...', 0)
+#1 C:\xampp\htdocs\app_bank_sumut\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('UPDATE `notif_c...')
+#2 C:\xampp\htdocs\app_bank_sumut\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('UPDATE `notif_c...')
+#3 C:\xampp\htdocs\app_bank_sumut\system\Database\BaseBuilder.php(1913): CodeIgniter\Database\BaseConnection->query('UPDATE `notif_c...', Array, false)
+#4 C:\xampp\htdocs\app_bank_sumut\app\Models\NotifModel.php(26): CodeIgniter\Database\BaseBuilder->update(Array, Array)
+#5 C:\xampp\htdocs\app_bank_sumut\app\Controllers\Home.php(645): App\Models\NotifModel->updateNotif(Array, 'Log_ID_93080')
+#6 C:\xampp\htdocs\app_bank_sumut\system\CodeIgniter.php(832): App\Controllers\Home->setReadLog('Log_ID_93080')
+#7 C:\xampp\htdocs\app_bank_sumut\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#8 C:\xampp\htdocs\app_bank_sumut\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\app_bank_sumut\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2023-04-06 22:45:08 --> Call to undefined method App\Models\NotifModel::updateLog
+#0 C:\xampp\htdocs\app_bank_sumut\app\Controllers\Home.php(645): CodeIgniter\Model->__call('updateLog', Array)
+#1 C:\xampp\htdocs\app_bank_sumut\system\CodeIgniter.php(832): App\Controllers\Home->setReadLog('Log_ID_93080')
+#2 C:\xampp\htdocs\app_bank_sumut\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 C:\xampp\htdocs\app_bank_sumut\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\app_bank_sumut\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2023-04-06 22:47:29 --> Call to undefined method App\Models\NotifModel::updateLog
+#0 C:\xampp\htdocs\app_bank_sumut\app\Controllers\Home.php(645): CodeIgniter\Model->__call('updateLog', Array)
+#1 C:\xampp\htdocs\app_bank_sumut\system\CodeIgniter.php(832): App\Controllers\Home->setReadLog('Log_ID_93080')
+#2 C:\xampp\htdocs\app_bank_sumut\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 C:\xampp\htdocs\app_bank_sumut\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\app_bank_sumut\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}

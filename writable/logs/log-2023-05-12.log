@@ -1,0 +1,9 @@
+CRITICAL - 2023-05-12 05:33:41 --> Unclosed '{' on line 38
+#0 C:\xampp\htdocs\app_bank_sumut\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#1 C:\xampp\htdocs\app_bank_sumut\system\Common.php(1089): CodeIgniter\View\View->render('dashboard_formC...', Array, true)
+#2 C:\xampp\htdocs\app_bank_sumut\app\Controllers\Home.php(684): view('dashboard_formC...', Array)
+#3 C:\xampp\htdocs\app_bank_sumut\system\CodeIgniter.php(832): App\Controllers\Home->formChat()
+#4 C:\xampp\htdocs\app_bank_sumut\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 C:\xampp\htdocs\app_bank_sumut\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\app_bank_sumut\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}

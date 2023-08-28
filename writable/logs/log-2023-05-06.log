@@ -1,0 +1,60 @@
+CRITICAL - 2023-05-06 08:50:16 --> file_get_contents(): Read of 31161 bytes failed with errno=13 Permission denied
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(8, 'file_get_conten...', 'C:\\xampp\\htdocs...', 80)
+#1 C:\xampp\htdocs\app_bank_sumut\system\Debug\Toolbar\Collectors\History.php(80): file_get_contents('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\app_bank_sumut\system\Debug\Toolbar.php(485): CodeIgniter\Debug\Toolbar\Collectors\History->setFiles(1683381013, 20)
+#3 C:\xampp\htdocs\app_bank_sumut\system\Debug\Toolbar.php(464): CodeIgniter\Debug\Toolbar->format(Array, 'html')
+#4 C:\xampp\htdocs\app_bank_sumut\app\Config\Events.php(48): CodeIgniter\Debug\Toolbar->respond()
+#5 C:\xampp\htdocs\app_bank_sumut\system\Events\Events.php(149): CodeIgniter\Events\Events::Config\{closure}()
+#6 C:\xampp\htdocs\app_bank_sumut\system\CodeIgniter.php(308): CodeIgniter\Events\Events::trigger('pre_system')
+#7 C:\xampp\htdocs\app_bank_sumut\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2023-05-06 10:53:42 --> Undefined variable $hiddenBtnEdit
+#0 C:\xampp\htdocs\app_bank_sumut\app\Views\dashboard_viewServer.php(66): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 66)
+#1 C:\xampp\htdocs\app_bank_sumut\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\app_bank_sumut\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\app_bank_sumut\system\Common.php(1089): CodeIgniter\View\View->render('dashboard_viewS...', Array, true)
+#4 C:\xampp\htdocs\app_bank_sumut\app\Controllers\serverControler.php(89): view('dashboard_viewS...', Array)
+#5 C:\xampp\htdocs\app_bank_sumut\system\CodeIgniter.php(832): App\Controllers\serverControler->viewServer('nama_controller', 'nama_fungsi_tuj...')
+#6 C:\xampp\htdocs\app_bank_sumut\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\serverControler))
+#7 C:\xampp\htdocs\app_bank_sumut\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\app_bank_sumut\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2023-05-06 10:54:53 --> Undefined variable $hiddenBtnEdit
+#0 C:\xampp\htdocs\app_bank_sumut\app\Views\dashboard_viewServer.php(66): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 66)
+#1 C:\xampp\htdocs\app_bank_sumut\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\app_bank_sumut\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\app_bank_sumut\system\Common.php(1089): CodeIgniter\View\View->render('dashboard_viewS...', Array, true)
+#4 C:\xampp\htdocs\app_bank_sumut\app\Controllers\serverControler.php(89): view('dashboard_viewS...', Array)
+#5 C:\xampp\htdocs\app_bank_sumut\system\CodeIgniter.php(832): App\Controllers\serverControler->viewServer('CartController', 'cart')
+#6 C:\xampp\htdocs\app_bank_sumut\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\serverControler))
+#7 C:\xampp\htdocs\app_bank_sumut\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\app_bank_sumut\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2023-05-06 10:58:46 --> Too few arguments to function App\Controllers\CartController::cart(), 0 passed in C:\xampp\htdocs\app_bank_sumut\system\CodeIgniter.php on line 832 and exactly 1 expected
+#0 C:\xampp\htdocs\app_bank_sumut\system\CodeIgniter.php(832): App\Controllers\CartController->cart()
+#1 C:\xampp\htdocs\app_bank_sumut\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CartController))
+#2 C:\xampp\htdocs\app_bank_sumut\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\app_bank_sumut\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2023-05-06 11:03:10 --> foreach() argument must be of type array|object, null given
+#0 C:\xampp\htdocs\app_bank_sumut\app\Views\dashboard_cartOrder.php(9): CodeIgniter\Debug\Exceptions->errorHandler(2, 'foreach() argum...', 'C:\\xampp\\htdocs...', 9)
+#1 C:\xampp\htdocs\app_bank_sumut\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\app_bank_sumut\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\app_bank_sumut\system\Common.php(1089): CodeIgniter\View\View->render('dashboard_cartO...', Array, true)
+#4 C:\xampp\htdocs\app_bank_sumut\app\Controllers\CartController.php(48): view('dashboard_cartO...', Array)
+#5 C:\xampp\htdocs\app_bank_sumut\system\CodeIgniter.php(832): App\Controllers\CartController->cart()
+#6 C:\xampp\htdocs\app_bank_sumut\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CartController))
+#7 C:\xampp\htdocs\app_bank_sumut\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\app_bank_sumut\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2023-05-06 11:03:37 --> foreach() argument must be of type array|object, null given
+#0 C:\xampp\htdocs\app_bank_sumut\app\Views\dashboard_cartOrder.php(9): CodeIgniter\Debug\Exceptions->errorHandler(2, 'foreach() argum...', 'C:\\xampp\\htdocs...', 9)
+#1 C:\xampp\htdocs\app_bank_sumut\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\app_bank_sumut\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\app_bank_sumut\system\Common.php(1089): CodeIgniter\View\View->render('dashboard_cartO...', Array, true)
+#4 C:\xampp\htdocs\app_bank_sumut\app\Controllers\CartController.php(48): view('dashboard_cartO...', Array)
+#5 C:\xampp\htdocs\app_bank_sumut\system\CodeIgniter.php(832): App\Controllers\CartController->cart()
+#6 C:\xampp\htdocs\app_bank_sumut\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CartController))
+#7 C:\xampp\htdocs\app_bank_sumut\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\app_bank_sumut\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}

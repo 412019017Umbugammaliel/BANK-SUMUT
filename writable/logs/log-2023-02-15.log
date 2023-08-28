@@ -1,0 +1,197 @@
+ERROR - 2023-02-15 09:36:10 --> Error connecting to the database: Incorrect database name 'bank_sumut '
+CRITICAL - 2023-02-15 09:36:10 --> Unable to connect to the database.
+Main connection [MySQLi]: Incorrect database name 'bank_sumut '
+#0 C:\xampp\htdocs\tekna\system\Database\BaseConnection.php(577): CodeIgniter\Database\BaseConnection->initialize()
+#1 C:\xampp\htdocs\tekna\system\Database\BaseBuilder.php(1771): CodeIgniter\Database\BaseConnection->query('INSERT INTO `ba...', Array, false)
+#2 C:\xampp\htdocs\tekna\system\Model.php(239): CodeIgniter\Database\BaseBuilder->insert()
+#3 C:\xampp\htdocs\tekna\system\BaseModel.php(738): CodeIgniter\Model->doInsert(Array)
+#4 C:\xampp\htdocs\tekna\system\Model.php(625): CodeIgniter\BaseModel->insert(Array, true)
+#5 C:\xampp\htdocs\tekna\app\Controllers\Home.php(118): CodeIgniter\Model->insert(Array)
+#6 C:\xampp\htdocs\tekna\system\CodeIgniter.php(832): App\Controllers\Home->register()
+#7 C:\xampp\htdocs\tekna\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#8 C:\xampp\htdocs\tekna\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\tekna\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#10 {main}
+ERROR - 2023-02-15 09:39:16 --> Error connecting to the database: Incorrect database name 'bank_sumut '
+CRITICAL - 2023-02-15 09:39:16 --> Unable to connect to the database.
+Main connection [MySQLi]: Incorrect database name 'bank_sumut '
+#0 C:\xampp\htdocs\tekna\system\Database\BaseConnection.php(577): CodeIgniter\Database\BaseConnection->initialize()
+#1 C:\xampp\htdocs\tekna\system\Database\BaseBuilder.php(1771): CodeIgniter\Database\BaseConnection->query('INSERT INTO `ba...', Array, false)
+#2 C:\xampp\htdocs\tekna\system\Model.php(239): CodeIgniter\Database\BaseBuilder->insert()
+#3 C:\xampp\htdocs\tekna\system\BaseModel.php(738): CodeIgniter\Model->doInsert(Array)
+#4 C:\xampp\htdocs\tekna\system\Model.php(625): CodeIgniter\BaseModel->insert(Array, true)
+#5 C:\xampp\htdocs\tekna\app\Controllers\Home.php(118): CodeIgniter\Model->insert(Array)
+#6 C:\xampp\htdocs\tekna\system\CodeIgniter.php(832): App\Controllers\Home->register()
+#7 C:\xampp\htdocs\tekna\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#8 C:\xampp\htdocs\tekna\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\tekna\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#10 {main}
+ERROR - 2023-02-15 09:40:03 --> Table 'bank_sumut.bank_sumut' doesn't exist
+CRITICAL - 2023-02-15 09:40:03 --> Table 'bank_sumut.bank_sumut' doesn't exist
+#0 C:\xampp\htdocs\tekna\system\Database\MySQLi\Connection.php(292): mysqli->query('INSERT INTO `ba...', 0)
+#1 C:\xampp\htdocs\tekna\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `ba...')
+#2 C:\xampp\htdocs\tekna\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `ba...')
+#3 C:\xampp\htdocs\tekna\system\Database\BaseBuilder.php(1771): CodeIgniter\Database\BaseConnection->query('INSERT INTO `ba...', Array, false)
+#4 C:\xampp\htdocs\tekna\system\Model.php(239): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\xampp\htdocs\tekna\system\BaseModel.php(738): CodeIgniter\Model->doInsert(Array)
+#6 C:\xampp\htdocs\tekna\system\Model.php(625): CodeIgniter\BaseModel->insert(Array, true)
+#7 C:\xampp\htdocs\tekna\app\Controllers\Home.php(118): CodeIgniter\Model->insert(Array)
+#8 C:\xampp\htdocs\tekna\system\CodeIgniter.php(832): App\Controllers\Home->register()
+#9 C:\xampp\htdocs\tekna\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#10 C:\xampp\htdocs\tekna\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xampp\htdocs\tekna\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#12 {main}
+CRITICAL - 2023-02-15 10:18:38 --> Array to string conversion
+#0 C:\xampp\htdocs\tekna\app\Controllers\Home.php(60): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Array to string...', 'C:\\xampp\\htdocs...', 60)
+#1 C:\xampp\htdocs\tekna\system\CodeIgniter.php(832): App\Controllers\Home->register()
+#2 C:\xampp\htdocs\tekna\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 C:\xampp\htdocs\tekna\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\tekna\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2023-02-15 10:19:51 --> CodeIgniter\BaseModel::findAll(): Argument #1 ($limit) must be of type int, string given, called in C:\xampp\htdocs\tekna\app\Controllers\Home.php on line 59
+#0 C:\xampp\htdocs\tekna\app\Controllers\Home.php(59): CodeIgniter\BaseModel->findAll('alberttan@gmail...')
+#1 C:\xampp\htdocs\tekna\system\CodeIgniter.php(832): App\Controllers\Home->register()
+#2 C:\xampp\htdocs\tekna\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 C:\xampp\htdocs\tekna\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\tekna\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2023-02-15 11:07:19 --> Undefined array key "status"
+#0 C:\xampp\htdocs\tekna\app\Controllers\Home.php(47): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'C:\\xampp\\htdocs...', 47)
+#1 C:\xampp\htdocs\tekna\system\CodeIgniter.php(832): App\Controllers\Home->login()
+#2 C:\xampp\htdocs\tekna\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 C:\xampp\htdocs\tekna\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\tekna\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+ERROR - 2023-02-15 11:23:33 --> Unknown column 'email' in 'field list'
+CRITICAL - 2023-02-15 11:23:33 --> Unknown column 'email' in 'field list'
+#0 C:\xampp\htdocs\tekna\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT email FR...', 0)
+#1 C:\xampp\htdocs\tekna\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT email FR...')
+#2 C:\xampp\htdocs\tekna\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT email FR...')
+#3 C:\xampp\htdocs\tekna\app\Controllers\Home.php(184): CodeIgniter\Database\BaseConnection->query('SELECT email FR...')
+#4 C:\xampp\htdocs\tekna\system\CodeIgniter.php(832): App\Controllers\Home->main()
+#5 C:\xampp\htdocs\tekna\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#6 C:\xampp\htdocs\tekna\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\tekna\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2023-02-15 11:55:15 --> array_merge(): Argument #1 must be of type array, stdClass given
+#0 C:\xampp\htdocs\tekna\app\Controllers\Home.php(218): array_merge(Object(stdClass), Object(stdClass), Object(stdClass))
+#1 C:\xampp\htdocs\tekna\system\CodeIgniter.php(832): App\Controllers\Home->user()
+#2 C:\xampp\htdocs\tekna\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 C:\xampp\htdocs\tekna\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\tekna\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2023-02-15 11:55:56 --> Cannot use object of type CodeIgniter\Database\MySQLi\Result as array
+#0 C:\xampp\htdocs\tekna\system\CodeIgniter.php(832): App\Controllers\Home->user()
+#1 C:\xampp\htdocs\tekna\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#2 C:\xampp\htdocs\tekna\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\tekna\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2023-02-15 11:56:15 --> array_merge(): Argument #1 must be of type array, stdClass given
+#0 C:\xampp\htdocs\tekna\app\Controllers\Home.php(218): array_merge(Object(stdClass), Object(stdClass), Object(stdClass))
+#1 C:\xampp\htdocs\tekna\system\CodeIgniter.php(832): App\Controllers\Home->user()
+#2 C:\xampp\htdocs\tekna\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 C:\xampp\htdocs\tekna\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\tekna\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2023-02-15 12:38:04 --> There is no data to update.
+#0 C:\xampp\htdocs\tekna\system\BaseModel.php(1574): CodeIgniter\Database\Exceptions\DataException::forEmptyDataset('update')
+#1 C:\xampp\htdocs\tekna\system\BaseModel.php(832): CodeIgniter\BaseModel->transformDataToArray(NULL, 'update')
+#2 C:\xampp\htdocs\tekna\system\Model.php(651): CodeIgniter\BaseModel->update(Array, NULL)
+#3 C:\xampp\htdocs\tekna\app\Controllers\Home.php(242): CodeIgniter\Model->update(Array)
+#4 C:\xampp\htdocs\tekna\system\CodeIgniter.php(832): App\Controllers\Home->bukaBlokir()
+#5 C:\xampp\htdocs\tekna\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#6 C:\xampp\htdocs\tekna\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\tekna\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2023-02-15 12:57:44 --> There is no data to update.
+#0 C:\xampp\htdocs\tekna\system\BaseModel.php(1574): CodeIgniter\Database\Exceptions\DataException::forEmptyDataset('update')
+#1 C:\xampp\htdocs\tekna\system\BaseModel.php(832): CodeIgniter\BaseModel->transformDataToArray(NULL, 'update')
+#2 C:\xampp\htdocs\tekna\system\Model.php(651): CodeIgniter\BaseModel->update(Array, NULL)
+#3 C:\xampp\htdocs\tekna\app\Controllers\Home.php(242): CodeIgniter\Model->update(Array)
+#4 C:\xampp\htdocs\tekna\system\CodeIgniter.php(832): App\Controllers\Home->bukaBlokir()
+#5 C:\xampp\htdocs\tekna\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#6 C:\xampp\htdocs\tekna\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\tekna\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2023-02-15 12:57:47 --> Unsupported operand types: string / string
+#0 C:\xampp\htdocs\tekna\system\View\View.php(210): include()
+#1 C:\xampp\htdocs\tekna\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#2 C:\xampp\htdocs\tekna\system\Common.php(1089): CodeIgniter\View\View->render('dashboard_user....', Array, true)
+#3 C:\xampp\htdocs\tekna\app\Controllers\Home.php(223): view('dashboard_user....', Array)
+#4 C:\xampp\htdocs\tekna\system\CodeIgniter.php(832): App\Controllers\Home->user()
+#5 C:\xampp\htdocs\tekna\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#6 C:\xampp\htdocs\tekna\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\tekna\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2023-02-15 12:57:52 --> Unsupported operand types: string / string
+#0 C:\xampp\htdocs\tekna\system\View\View.php(210): include()
+#1 C:\xampp\htdocs\tekna\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#2 C:\xampp\htdocs\tekna\system\Common.php(1089): CodeIgniter\View\View->render('dashboard_user....', Array, true)
+#3 C:\xampp\htdocs\tekna\app\Controllers\Home.php(223): view('dashboard_user....', Array)
+#4 C:\xampp\htdocs\tekna\system\CodeIgniter.php(832): App\Controllers\Home->user()
+#5 C:\xampp\htdocs\tekna\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#6 C:\xampp\htdocs\tekna\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\tekna\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2023-02-15 13:02:39 --> Too few arguments to function App\Controllers\Home::bukaBlokir(), 0 passed in C:\xampp\htdocs\tekna\system\CodeIgniter.php on line 832 and exactly 1 expected
+#0 C:\xampp\htdocs\tekna\system\CodeIgniter.php(832): App\Controllers\Home->bukaBlokir()
+#1 C:\xampp\htdocs\tekna\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#2 C:\xampp\htdocs\tekna\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\tekna\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2023-02-15 13:03:07 --> Too few arguments to function App\Controllers\Home::bukaBlokir(), 0 passed in C:\xampp\htdocs\tekna\system\CodeIgniter.php on line 832 and exactly 1 expected
+#0 C:\xampp\htdocs\tekna\system\CodeIgniter.php(832): App\Controllers\Home->bukaBlokir()
+#1 C:\xampp\htdocs\tekna\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#2 C:\xampp\htdocs\tekna\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\tekna\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2023-02-15 13:09:59 --> Too few arguments to function App\Controllers\Home::bukaBlokir(), 0 passed in C:\xampp\htdocs\tekna\system\CodeIgniter.php on line 832 and exactly 1 expected
+#0 C:\xampp\htdocs\tekna\system\CodeIgniter.php(832): App\Controllers\Home->bukaBlokir()
+#1 C:\xampp\htdocs\tekna\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#2 C:\xampp\htdocs\tekna\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\tekna\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2023-02-15 13:10:09 --> CodeIgniter\BaseModel::transformDataToArray(): Return value must be of type array, string returned
+#0 C:\xampp\htdocs\tekna\system\BaseModel.php(832): CodeIgniter\BaseModel->transformDataToArray('Guest_lPjUE_247...', 'update')
+#1 C:\xampp\htdocs\tekna\system\Model.php(651): CodeIgniter\BaseModel->update(Array, 'Guest_lPjUE_247...')
+#2 C:\xampp\htdocs\tekna\app\Controllers\Home.php(242): CodeIgniter\Model->update(Array, 'Guest_lPjUE_247...')
+#3 C:\xampp\htdocs\tekna\system\CodeIgniter.php(832): App\Controllers\Home->bukaBlokir('Guest_lPjUE_247...')
+#4 C:\xampp\htdocs\tekna\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 C:\xampp\htdocs\tekna\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\tekna\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2023-02-15 13:15:28 --> Call to undefined method App\Models\UserModel::updateDataUser
+#0 C:\xampp\htdocs\tekna\app\Controllers\Home.php(242): CodeIgniter\Model->__call('updateDataUser', Array)
+#1 C:\xampp\htdocs\tekna\system\CodeIgniter.php(832): App\Controllers\Home->bukaBlokir('Guest_lPjUE_247...')
+#2 C:\xampp\htdocs\tekna\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 C:\xampp\htdocs\tekna\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\tekna\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2023-02-15 13:16:30 --> Too few arguments to function App\Controllers\Home::blokir(), 0 passed in C:\xampp\htdocs\tekna\system\CodeIgniter.php on line 832 and exactly 1 expected
+#0 C:\xampp\htdocs\tekna\system\CodeIgniter.php(832): App\Controllers\Home->blokir()
+#1 C:\xampp\htdocs\tekna\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#2 C:\xampp\htdocs\tekna\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\tekna\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2023-02-15 13:16:51 --> Too few arguments to function App\Controllers\Home::blokir(), 0 passed in C:\xampp\htdocs\tekna\system\CodeIgniter.php on line 832 and exactly 1 expected
+#0 C:\xampp\htdocs\tekna\system\CodeIgniter.php(832): App\Controllers\Home->blokir()
+#1 C:\xampp\htdocs\tekna\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#2 C:\xampp\htdocs\tekna\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\tekna\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2023-02-15 13:16:57 --> Too few arguments to function App\Controllers\Home::blokir(), 0 passed in C:\xampp\htdocs\tekna\system\CodeIgniter.php on line 832 and exactly 1 expected
+#0 C:\xampp\htdocs\tekna\system\CodeIgniter.php(832): App\Controllers\Home->blokir()
+#1 C:\xampp\htdocs\tekna\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#2 C:\xampp\htdocs\tekna\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\tekna\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2023-02-15 13:41:11 --> file_get_contents(): Read of 29181 bytes failed with errno=13 Permission denied
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(8, 'file_get_conten...', 'C:\\xampp\\htdocs...', 80)
+#1 C:\xampp\htdocs\tekna\system\Debug\Toolbar\Collectors\History.php(80): file_get_contents('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\tekna\system\Debug\Toolbar.php(485): CodeIgniter\Debug\Toolbar\Collectors\History->setFiles(1676490068, 20)
+#3 C:\xampp\htdocs\tekna\system\Debug\Toolbar.php(464): CodeIgniter\Debug\Toolbar->format(Array, 'html')
+#4 C:\xampp\htdocs\tekna\app\Config\Events.php(48): CodeIgniter\Debug\Toolbar->respond()
+#5 C:\xampp\htdocs\tekna\system\Events\Events.php(149): CodeIgniter\Events\Events::Config\{closure}()
+#6 C:\xampp\htdocs\tekna\system\CodeIgniter.php(308): CodeIgniter\Events\Events::trigger('pre_system')
+#7 C:\xampp\htdocs\tekna\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}

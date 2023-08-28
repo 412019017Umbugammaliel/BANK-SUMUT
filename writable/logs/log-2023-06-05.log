@@ -1,0 +1,14 @@
+CRITICAL - 2023-06-05 10:19:19 --> Undefined array key "user_name"
+#0 C:\xampp\htdocs\app_bank_sumut\app\Controllers\LiveChatController.php(168): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'C:\\xampp\\htdocs...', 168)
+#1 C:\xampp\htdocs\app_bank_sumut\system\CodeIgniter.php(832): App\Controllers\LiveChatController->createNewChat()
+#2 C:\xampp\htdocs\app_bank_sumut\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\LiveChatController))
+#3 C:\xampp\htdocs\app_bank_sumut\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\app_bank_sumut\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2023-06-05 10:23:59 --> Undefined array key "user_name"
+#0 C:\xampp\htdocs\app_bank_sumut\app\Controllers\LiveChatController.php(168): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'C:\\xampp\\htdocs...', 168)
+#1 C:\xampp\htdocs\app_bank_sumut\system\CodeIgniter.php(832): App\Controllers\LiveChatController->createNewChat()
+#2 C:\xampp\htdocs\app_bank_sumut\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\LiveChatController))
+#3 C:\xampp\htdocs\app_bank_sumut\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\app_bank_sumut\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}

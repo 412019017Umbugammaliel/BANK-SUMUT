@@ -1,0 +1,78 @@
+CRITICAL - 2023-04-14 00:35:03 --> Undefined variable $dataChat
+#0 C:\xampp\htdocs\app_bank_sumut\app\Views\dashboard_notifikasi.php(170): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 170)
+#1 C:\xampp\htdocs\app_bank_sumut\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\app_bank_sumut\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\app_bank_sumut\system\Common.php(1089): CodeIgniter\View\View->render('dashboard_notif...', Array, true)
+#4 C:\xampp\htdocs\app_bank_sumut\app\Controllers\Home.php(572): view('dashboard_notif...')
+#5 C:\xampp\htdocs\app_bank_sumut\system\CodeIgniter.php(832): App\Controllers\Home->notif()
+#6 C:\xampp\htdocs\app_bank_sumut\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 C:\xampp\htdocs\app_bank_sumut\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\app_bank_sumut\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2023-04-14 00:36:15 --> Undefined variable $stat
+#0 C:\xampp\htdocs\app_bank_sumut\app\Views\dashboard_notifikasi.php(198): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 198)
+#1 C:\xampp\htdocs\app_bank_sumut\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\app_bank_sumut\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\app_bank_sumut\system\Common.php(1089): CodeIgniter\View\View->render('dashboard_notif...', Array, true)
+#4 C:\xampp\htdocs\app_bank_sumut\app\Controllers\Home.php(572): view('dashboard_notif...')
+#5 C:\xampp\htdocs\app_bank_sumut\system\CodeIgniter.php(832): App\Controllers\Home->notif()
+#6 C:\xampp\htdocs\app_bank_sumut\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 C:\xampp\htdocs\app_bank_sumut\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\app_bank_sumut\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+ERROR - 2023-04-14 03:59:31 --> Unknown column '$time_chat' in 'where clause'
+CRITICAL - 2023-04-14 03:59:31 --> Unknown column '$time_chat' in 'where clause'
+#0 C:\xampp\htdocs\app_bank_sumut\system\Database\MySQLi\Connection.php(292): mysqli->query('UPDATE `activit...', 0)
+#1 C:\xampp\htdocs\app_bank_sumut\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('UPDATE `activit...')
+#2 C:\xampp\htdocs\app_bank_sumut\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('UPDATE `activit...')
+#3 C:\xampp\htdocs\app_bank_sumut\system\Database\BaseBuilder.php(1913): CodeIgniter\Database\BaseConnection->query('UPDATE `activit...', Array, false)
+#4 C:\xampp\htdocs\app_bank_sumut\app\Models\ActivityChatModel.php(26): CodeIgniter\Database\BaseBuilder->update(Array, Array)
+#5 C:\xampp\htdocs\app_bank_sumut\app\Controllers\Home.php(611): App\Models\ActivityChatModel->setReadChat(Array, 'Notif_ID_87466', '10:40:34')
+#6 C:\xampp\htdocs\app_bank_sumut\system\CodeIgniter.php(832): App\Controllers\Home->setRead()
+#7 C:\xampp\htdocs\app_bank_sumut\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#8 C:\xampp\htdocs\app_bank_sumut\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\app_bank_sumut\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2023-04-14 04:10:06 --> syntax error, unexpected token ","
+#0 C:\xampp\htdocs\app_bank_sumut\system\Router\Router.php(175): CodeIgniter\Router\Router->autoRoute('Home/getActivit...')
+#1 C:\xampp\htdocs\app_bank_sumut\system\CodeIgniter.php(726): CodeIgniter\Router\Router->handle('Home/getActivit...')
+#2 C:\xampp\htdocs\app_bank_sumut\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 C:\xampp\htdocs\app_bank_sumut\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\app_bank_sumut\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2023-04-14 04:11:06 --> syntax error, unexpected token ","
+#0 C:\xampp\htdocs\app_bank_sumut\system\Router\Router.php(175): CodeIgniter\Router\Router->autoRoute('Home/getActivit...')
+#1 C:\xampp\htdocs\app_bank_sumut\system\CodeIgniter.php(726): CodeIgniter\Router\Router->handle('Home/getActivit...')
+#2 C:\xampp\htdocs\app_bank_sumut\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 C:\xampp\htdocs\app_bank_sumut\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\app_bank_sumut\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2023-04-14 04:12:06 --> syntax error, unexpected token ","
+#0 C:\xampp\htdocs\app_bank_sumut\system\Router\Router.php(175): CodeIgniter\Router\Router->autoRoute('Home/getActivit...')
+#1 C:\xampp\htdocs\app_bank_sumut\system\CodeIgniter.php(726): CodeIgniter\Router\Router->handle('Home/getActivit...')
+#2 C:\xampp\htdocs\app_bank_sumut\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 C:\xampp\htdocs\app_bank_sumut\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\app_bank_sumut\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2023-04-14 04:13:06 --> syntax error, unexpected token ","
+#0 C:\xampp\htdocs\app_bank_sumut\system\Router\Router.php(175): CodeIgniter\Router\Router->autoRoute('Home/getActivit...')
+#1 C:\xampp\htdocs\app_bank_sumut\system\CodeIgniter.php(726): CodeIgniter\Router\Router->handle('Home/getActivit...')
+#2 C:\xampp\htdocs\app_bank_sumut\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 C:\xampp\htdocs\app_bank_sumut\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\app_bank_sumut\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+ERROR - 2023-04-14 04:26:15 --> Unknown column 'message_id' in 'field list'
+CRITICAL - 2023-04-14 04:26:15 --> Unknown column 'message_id' in 'field list'
+#0 C:\xampp\htdocs\app_bank_sumut\system\Database\MySQLi\Connection.php(292): mysqli->query('INSERT INTO `ac...', 0)
+#1 C:\xampp\htdocs\app_bank_sumut\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `ac...')
+#2 C:\xampp\htdocs\app_bank_sumut\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `ac...')
+#3 C:\xampp\htdocs\app_bank_sumut\system\Database\BaseBuilder.php(1771): CodeIgniter\Database\BaseConnection->query('INSERT INTO `ac...', Array, false)
+#4 C:\xampp\htdocs\app_bank_sumut\system\Model.php(239): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\xampp\htdocs\app_bank_sumut\system\BaseModel.php(738): CodeIgniter\Model->doInsert(Array)
+#6 C:\xampp\htdocs\app_bank_sumut\system\Model.php(625): CodeIgniter\BaseModel->insert(Array, true)
+#7 C:\xampp\htdocs\app_bank_sumut\app\Controllers\Home.php(904): CodeIgniter\Model->insert(Array)
+#8 C:\xampp\htdocs\app_bank_sumut\system\CodeIgniter.php(832): App\Controllers\Home->chatActivity()
+#9 C:\xampp\htdocs\app_bank_sumut\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#10 C:\xampp\htdocs\app_bank_sumut\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xampp\htdocs\app_bank_sumut\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#12 {main}

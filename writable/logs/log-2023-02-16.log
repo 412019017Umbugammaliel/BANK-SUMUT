@@ -1,0 +1,67 @@
+CRITICAL - 2023-02-16 00:05:11 --> The original file is not a valid file.
+#0 C:\xampp\htdocs\tekna\system\HTTP\Files\UploadedFile.php(137): CodeIgniter\HTTP\Exceptions\HTTPException::forInvalidFile()
+#1 C:\xampp\htdocs\tekna\app\Controllers\Home.php(312): CodeIgniter\HTTP\Files\UploadedFile->move('C:\\xampp\\htdocs...', '1676527511_acf0...')
+#2 C:\xampp\htdocs\tekna\system\CodeIgniter.php(832): App\Controllers\Home->prosesUpdateProfile()
+#3 C:\xampp\htdocs\tekna\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#4 C:\xampp\htdocs\tekna\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\tekna\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2023-02-16 01:10:52 --> unlink(C:\xampp\htdocs\tekna\public/asset/image/user/1676525693_265a972dd9b575f06f93.png): No such file or directory
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'unlink(C:\\xampp...', 'C:\\xampp\\htdocs...', 328)
+#1 C:\xampp\htdocs\tekna\app\Controllers\Home.php(328): unlink('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\tekna\system\CodeIgniter.php(832): App\Controllers\Home->prosesUpdateFotoProfile()
+#3 C:\xampp\htdocs\tekna\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#4 C:\xampp\htdocs\tekna\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\tekna\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2023-02-16 01:40:37 --> unlink(C:\xampp\htdocs\tekna\public/asset/image/user/): Is a directory
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'unlink(C:\\xampp...', 'C:\\xampp\\htdocs...', 341)
+#1 C:\xampp\htdocs\tekna\app\Controllers\Home.php(341): unlink('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\tekna\system\CodeIgniter.php(832): App\Controllers\Home->prosesUpdateFotoProfile()
+#3 C:\xampp\htdocs\tekna\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#4 C:\xampp\htdocs\tekna\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\tekna\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2023-02-16 01:43:23 --> syntax error, unexpected token "public"
+#0 C:\xampp\htdocs\tekna\system\Autoloader\Autoloader.php(241): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs...')
+#1 C:\xampp\htdocs\tekna\system\Autoloader\Autoloader.php(219): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers...')
+#2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers...')
+#3 C:\xampp\htdocs\tekna\system\CodeIgniter.php(797): class_exists('\\App\\Controller...', true)
+#4 C:\xampp\htdocs\tekna\system\CodeIgniter.php(406): CodeIgniter\CodeIgniter->startController()
+#5 C:\xampp\htdocs\tekna\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\tekna\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2023-02-16 01:43:28 --> syntax error, unexpected token "public"
+#0 C:\xampp\htdocs\tekna\system\Autoloader\Autoloader.php(241): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs...')
+#1 C:\xampp\htdocs\tekna\system\Autoloader\Autoloader.php(219): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers...')
+#2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers...')
+#3 C:\xampp\htdocs\tekna\system\CodeIgniter.php(797): class_exists('\\App\\Controller...', true)
+#4 C:\xampp\htdocs\tekna\system\CodeIgniter.php(406): CodeIgniter\CodeIgniter->startController()
+#5 C:\xampp\htdocs\tekna\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\tekna\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2023-02-16 01:43:40 --> syntax error, unexpected token "public"
+#0 C:\xampp\htdocs\tekna\system\Autoloader\Autoloader.php(241): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs...')
+#1 C:\xampp\htdocs\tekna\system\Autoloader\Autoloader.php(219): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers...')
+#2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers...')
+#3 C:\xampp\htdocs\tekna\system\CodeIgniter.php(797): class_exists('\\App\\Controller...', true)
+#4 C:\xampp\htdocs\tekna\system\CodeIgniter.php(406): CodeIgniter\CodeIgniter->startController()
+#5 C:\xampp\htdocs\tekna\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\tekna\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2023-02-16 01:45:00 --> unlink(C:\xampp\htdocs\tekna\public/asset/image/user/): Is a directory
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'unlink(C:\\xampp...', 'C:\\xampp\\htdocs...', 370)
+#1 C:\xampp\htdocs\tekna\app\Controllers\Home.php(370): unlink('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\tekna\system\CodeIgniter.php(832): App\Controllers\Home->prosesUpdateFotoProfile()
+#3 C:\xampp\htdocs\tekna\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#4 C:\xampp\htdocs\tekna\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\tekna\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2023-02-16 01:48:16 --> unlink(C:\xampp\htdocs\tekna\public/asset/image/user/): Is a directory
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'unlink(C:\\xampp...', 'C:\\xampp\\htdocs...', 370)
+#1 C:\xampp\htdocs\tekna\app\Controllers\Home.php(370): unlink('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\tekna\system\CodeIgniter.php(832): App\Controllers\Home->prosesUpdateFotoProfile()
+#3 C:\xampp\htdocs\tekna\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#4 C:\xampp\htdocs\tekna\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\tekna\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}

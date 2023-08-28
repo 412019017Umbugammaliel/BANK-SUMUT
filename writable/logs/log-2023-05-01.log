@@ -1,0 +1,39 @@
+CRITICAL - 2023-05-01 11:14:23 --> Call to undefined function CodeIgniter\locale_set_default()
+#0 C:\xampp\htdocs\app_bank_sumut\system\bootstrap.php(146): CodeIgniter\CodeIgniter->initialize()
+#1 C:\xampp\htdocs\app_bank_sumut\public\index.php(28): require('...')
+#2 {main}
+CRITICAL - 2023-05-01 11:14:53 --> Call to undefined function CodeIgniter\locale_set_default()
+#0 C:\xampp\htdocs\app_bank_sumut\system\bootstrap.php(146): CodeIgniter\CodeIgniter->initialize()
+#1 C:\xampp\htdocs\app_bank_sumut\public\index.php(28): require('...')
+#2 {main}
+CRITICAL - 2023-05-01 11:14:54 --> Call to undefined function CodeIgniter\locale_set_default()
+#0 C:\xampp\htdocs\app_bank_sumut\system\bootstrap.php(146): CodeIgniter\CodeIgniter->initialize()
+#1 C:\xampp\htdocs\app_bank_sumut\public\index.php(28): require('...')
+#2 {main}
+CRITICAL - 2023-05-01 11:15:05 --> Call to undefined function CodeIgniter\locale_set_default()
+#0 C:\xampp\htdocs\app_bank_sumut\system\bootstrap.php(146): CodeIgniter\CodeIgniter->initialize()
+#1 C:\xampp\htdocs\app_bank_sumut\public\index.php(28): require('...')
+#2 {main}
+CRITICAL - 2023-05-01 11:15:14 --> Call to undefined function CodeIgniter\locale_set_default()
+#0 C:\xampp\htdocs\app_bank_sumut\system\bootstrap.php(146): CodeIgniter\CodeIgniter->initialize()
+#1 C:\xampp\htdocs\app_bank_sumut\public\index.php(28): require('...')
+#2 {main}
+CRITICAL - 2023-05-01 11:26:18 --> Call to undefined function CodeIgniter\locale_set_default()
+#0 C:\xampp\htdocs\app_bank_sumut\system\bootstrap.php(146): CodeIgniter\CodeIgniter->initialize()
+#1 C:\xampp\htdocs\app_bank_sumut\public\index.php(28): require('...')
+#2 {main}
+ERROR - 2023-05-01 08:17:03 --> Duplicate entry '' for key 'PRIMARY'
+CRITICAL - 2023-05-01 08:17:03 --> Duplicate entry '' for key 'PRIMARY'
+#0 C:\xampp\htdocs\app_bank_sumut\system\Database\MySQLi\Connection.php(292): mysqli->query('INSERT INTO `us...', 0)
+#1 C:\xampp\htdocs\app_bank_sumut\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `us...')
+#2 C:\xampp\htdocs\app_bank_sumut\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `us...')
+#3 C:\xampp\htdocs\app_bank_sumut\system\Database\BaseBuilder.php(1771): CodeIgniter\Database\BaseConnection->query('INSERT INTO `us...', Array, false)
+#4 C:\xampp\htdocs\app_bank_sumut\system\Model.php(239): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\xampp\htdocs\app_bank_sumut\system\BaseModel.php(738): CodeIgniter\Model->doInsert(Array)
+#6 C:\xampp\htdocs\app_bank_sumut\system\Model.php(625): CodeIgniter\BaseModel->insert(Array, true)
+#7 C:\xampp\htdocs\app_bank_sumut\app\Controllers\Home.php(232): CodeIgniter\Model->insert(Array)
+#8 C:\xampp\htdocs\app_bank_sumut\system\CodeIgniter.php(832): App\Controllers\Home->twoFactorVerificationProcess()
+#9 C:\xampp\htdocs\app_bank_sumut\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#10 C:\xampp\htdocs\app_bank_sumut\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xampp\htdocs\app_bank_sumut\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#12 {main}

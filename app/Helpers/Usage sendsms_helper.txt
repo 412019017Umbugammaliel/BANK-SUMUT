@@ -1,0 +1,19 @@
+Load Helper:
+$this->load->helper('sendsms_helper');
+
+Example of sending message:
+//call this function to send sms
+sendsms( '919918xxxxxx', 'Hello, This is a test message from spring edge' );
+
+
+Success Response:
+{
+ "groupID":xxxxxx,
+ "MessageIDs":"xxxxxxx-xx",
+ "status":"AWAITED-DLR"
+}
+
+Or in case of an error:
+{
+  "error":"Invalid Mobile Numbers"
+}

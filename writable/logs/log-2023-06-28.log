@@ -1,0 +1,685 @@
+CRITICAL - 2023-06-28 02:28:52 --> Undefined variable $finalResult
+#0 C:\xampp\htdocs\app_bank_sumut\app\Controllers\Home.php(647): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 647)
+#1 C:\xampp\htdocs\app_bank_sumut\system\CodeIgniter.php(832): App\Controllers\Home->getUnreadCount()
+#2 C:\xampp\htdocs\app_bank_sumut\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 C:\xampp\htdocs\app_bank_sumut\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\app_bank_sumut\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2023-06-28 02:28:54 --> Undefined variable $finalResult
+#0 C:\xampp\htdocs\app_bank_sumut\app\Controllers\Home.php(647): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 647)
+#1 C:\xampp\htdocs\app_bank_sumut\system\CodeIgniter.php(832): App\Controllers\Home->getUnreadCount()
+#2 C:\xampp\htdocs\app_bank_sumut\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 C:\xampp\htdocs\app_bank_sumut\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\app_bank_sumut\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2023-06-28 02:29:52 --> syntax error, unexpected token "}"
+#0 C:\xampp\htdocs\app_bank_sumut\system\Router\Router.php(175): CodeIgniter\Router\Router->autoRoute('Home/getUnreadC...')
+#1 C:\xampp\htdocs\app_bank_sumut\system\CodeIgniter.php(726): CodeIgniter\Router\Router->handle('Home/getUnreadC...')
+#2 C:\xampp\htdocs\app_bank_sumut\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 C:\xampp\htdocs\app_bank_sumut\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\app_bank_sumut\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2023-06-28 02:29:53 --> syntax error, unexpected token "}"
+#0 C:\xampp\htdocs\app_bank_sumut\system\Router\Router.php(175): CodeIgniter\Router\Router->autoRoute('Home/getUnreadC...')
+#1 C:\xampp\htdocs\app_bank_sumut\system\CodeIgniter.php(726): CodeIgniter\Router\Router->handle('Home/getUnreadC...')
+#2 C:\xampp\htdocs\app_bank_sumut\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 C:\xampp\htdocs\app_bank_sumut\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\app_bank_sumut\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2023-06-28 02:29:53 --> syntax error, unexpected token "}"
+#0 C:\xampp\htdocs\app_bank_sumut\system\Router\Router.php(175): CodeIgniter\Router\Router->autoRoute('Home/getUnreadC...')
+#1 C:\xampp\htdocs\app_bank_sumut\system\CodeIgniter.php(726): CodeIgniter\Router\Router->handle('Home/getUnreadC...')
+#2 C:\xampp\htdocs\app_bank_sumut\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 C:\xampp\htdocs\app_bank_sumut\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\app_bank_sumut\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2023-06-28 02:29:54 --> syntax error, unexpected token "}"
+#0 C:\xampp\htdocs\app_bank_sumut\system\Router\Router.php(175): CodeIgniter\Router\Router->autoRoute('Home/getUnreadC...')
+#1 C:\xampp\htdocs\app_bank_sumut\system\CodeIgniter.php(726): CodeIgniter\Router\Router->handle('Home/getUnreadC...')
+#2 C:\xampp\htdocs\app_bank_sumut\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 C:\xampp\htdocs\app_bank_sumut\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\app_bank_sumut\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2023-06-28 02:29:54 --> syntax error, unexpected token "}"
+#0 C:\xampp\htdocs\app_bank_sumut\system\Router\Router.php(175): CodeIgniter\Router\Router->autoRoute('Home/getUnreadC...')
+#1 C:\xampp\htdocs\app_bank_sumut\system\CodeIgniter.php(726): CodeIgniter\Router\Router->handle('Home/getUnreadC...')
+#2 C:\xampp\htdocs\app_bank_sumut\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 C:\xampp\htdocs\app_bank_sumut\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\app_bank_sumut\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2023-06-28 02:29:54 --> syntax error, unexpected token "}"
+#0 C:\xampp\htdocs\app_bank_sumut\system\Router\Router.php(175): CodeIgniter\Router\Router->autoRoute('Home/getUnreadC...')
+#1 C:\xampp\htdocs\app_bank_sumut\system\CodeIgniter.php(726): CodeIgniter\Router\Router->handle('Home/getUnreadC...')
+#2 C:\xampp\htdocs\app_bank_sumut\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 C:\xampp\htdocs\app_bank_sumut\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\app_bank_sumut\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2023-06-28 02:29:54 --> syntax error, unexpected token "}"
+#0 C:\xampp\htdocs\app_bank_sumut\system\Router\Router.php(175): CodeIgniter\Router\Router->autoRoute('Home/getUnreadC...')
+#1 C:\xampp\htdocs\app_bank_sumut\system\CodeIgniter.php(726): CodeIgniter\Router\Router->handle('Home/getUnreadC...')
+#2 C:\xampp\htdocs\app_bank_sumut\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 C:\xampp\htdocs\app_bank_sumut\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\app_bank_sumut\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2023-06-28 02:29:54 --> syntax error, unexpected token "}"
+#0 C:\xampp\htdocs\app_bank_sumut\system\Router\Router.php(175): CodeIgniter\Router\Router->autoRoute('Home/getUnreadC...')
+#1 C:\xampp\htdocs\app_bank_sumut\system\CodeIgniter.php(726): CodeIgniter\Router\Router->handle('Home/getUnreadC...')
+#2 C:\xampp\htdocs\app_bank_sumut\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 C:\xampp\htdocs\app_bank_sumut\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\app_bank_sumut\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2023-06-28 02:29:54 --> syntax error, unexpected token "}"
+#0 C:\xampp\htdocs\app_bank_sumut\system\Router\Router.php(175): CodeIgniter\Router\Router->autoRoute('Home/getUnreadC...')
+#1 C:\xampp\htdocs\app_bank_sumut\system\CodeIgniter.php(726): CodeIgniter\Router\Router->handle('Home/getUnreadC...')
+#2 C:\xampp\htdocs\app_bank_sumut\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 C:\xampp\htdocs\app_bank_sumut\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\app_bank_sumut\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2023-06-28 02:29:54 --> syntax error, unexpected token "}"
+#0 C:\xampp\htdocs\app_bank_sumut\system\Router\Router.php(175): CodeIgniter\Router\Router->autoRoute('Home/getUnreadC...')
+#1 C:\xampp\htdocs\app_bank_sumut\system\CodeIgniter.php(726): CodeIgniter\Router\Router->handle('Home/getUnreadC...')
+#2 C:\xampp\htdocs\app_bank_sumut\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 C:\xampp\htdocs\app_bank_sumut\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\app_bank_sumut\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2023-06-28 02:29:54 --> syntax error, unexpected token "}"
+#0 C:\xampp\htdocs\app_bank_sumut\system\Router\Router.php(175): CodeIgniter\Router\Router->autoRoute('Home/getUnreadC...')
+#1 C:\xampp\htdocs\app_bank_sumut\system\CodeIgniter.php(726): CodeIgniter\Router\Router->handle('Home/getUnreadC...')
+#2 C:\xampp\htdocs\app_bank_sumut\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 C:\xampp\htdocs\app_bank_sumut\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\app_bank_sumut\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2023-06-28 02:29:54 --> syntax error, unexpected token "}"
+#0 C:\xampp\htdocs\app_bank_sumut\system\Router\Router.php(175): CodeIgniter\Router\Router->autoRoute('Home/getUnreadC...')
+#1 C:\xampp\htdocs\app_bank_sumut\system\CodeIgniter.php(726): CodeIgniter\Router\Router->handle('Home/getUnreadC...')
+#2 C:\xampp\htdocs\app_bank_sumut\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 C:\xampp\htdocs\app_bank_sumut\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\app_bank_sumut\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2023-06-28 02:29:54 --> syntax error, unexpected token "}"
+#0 C:\xampp\htdocs\app_bank_sumut\system\Router\Router.php(175): CodeIgniter\Router\Router->autoRoute('Home/getUnreadC...')
+#1 C:\xampp\htdocs\app_bank_sumut\system\CodeIgniter.php(726): CodeIgniter\Router\Router->handle('Home/getUnreadC...')
+#2 C:\xampp\htdocs\app_bank_sumut\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 C:\xampp\htdocs\app_bank_sumut\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\app_bank_sumut\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2023-06-28 02:30:52 --> syntax error, unexpected token "}"
+#0 C:\xampp\htdocs\app_bank_sumut\system\Router\Router.php(175): CodeIgniter\Router\Router->autoRoute('Home/getUnreadC...')
+#1 C:\xampp\htdocs\app_bank_sumut\system\CodeIgniter.php(726): CodeIgniter\Router\Router->handle('Home/getUnreadC...')
+#2 C:\xampp\htdocs\app_bank_sumut\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 C:\xampp\htdocs\app_bank_sumut\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\app_bank_sumut\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2023-06-28 02:30:53 --> syntax error, unexpected token "}"
+#0 C:\xampp\htdocs\app_bank_sumut\system\Router\Router.php(175): CodeIgniter\Router\Router->autoRoute('Home/getUnreadC...')
+#1 C:\xampp\htdocs\app_bank_sumut\system\CodeIgniter.php(726): CodeIgniter\Router\Router->handle('Home/getUnreadC...')
+#2 C:\xampp\htdocs\app_bank_sumut\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 C:\xampp\htdocs\app_bank_sumut\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\app_bank_sumut\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2023-06-28 02:30:53 --> syntax error, unexpected token "}"
+#0 C:\xampp\htdocs\app_bank_sumut\system\Router\Router.php(175): CodeIgniter\Router\Router->autoRoute('Home/getUnreadC...')
+#1 C:\xampp\htdocs\app_bank_sumut\system\CodeIgniter.php(726): CodeIgniter\Router\Router->handle('Home/getUnreadC...')
+#2 C:\xampp\htdocs\app_bank_sumut\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 C:\xampp\htdocs\app_bank_sumut\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\app_bank_sumut\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2023-06-28 02:30:54 --> syntax error, unexpected token "}"
+#0 C:\xampp\htdocs\app_bank_sumut\system\Router\Router.php(175): CodeIgniter\Router\Router->autoRoute('Home/getUnreadC...')
+#1 C:\xampp\htdocs\app_bank_sumut\system\CodeIgniter.php(726): CodeIgniter\Router\Router->handle('Home/getUnreadC...')
+#2 C:\xampp\htdocs\app_bank_sumut\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 C:\xampp\htdocs\app_bank_sumut\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\app_bank_sumut\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2023-06-28 02:30:54 --> syntax error, unexpected token "}"
+#0 C:\xampp\htdocs\app_bank_sumut\system\Router\Router.php(175): CodeIgniter\Router\Router->autoRoute('Home/getUnreadC...')
+#1 C:\xampp\htdocs\app_bank_sumut\system\CodeIgniter.php(726): CodeIgniter\Router\Router->handle('Home/getUnreadC...')
+#2 C:\xampp\htdocs\app_bank_sumut\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 C:\xampp\htdocs\app_bank_sumut\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\app_bank_sumut\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2023-06-28 02:30:54 --> syntax error, unexpected token "}"
+#0 C:\xampp\htdocs\app_bank_sumut\system\Router\Router.php(175): CodeIgniter\Router\Router->autoRoute('Home/getUnreadC...')
+#1 C:\xampp\htdocs\app_bank_sumut\system\CodeIgniter.php(726): CodeIgniter\Router\Router->handle('Home/getUnreadC...')
+#2 C:\xampp\htdocs\app_bank_sumut\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 C:\xampp\htdocs\app_bank_sumut\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\app_bank_sumut\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2023-06-28 02:30:54 --> syntax error, unexpected token "}"
+#0 C:\xampp\htdocs\app_bank_sumut\system\Router\Router.php(175): CodeIgniter\Router\Router->autoRoute('Home/getUnreadC...')
+#1 C:\xampp\htdocs\app_bank_sumut\system\CodeIgniter.php(726): CodeIgniter\Router\Router->handle('Home/getUnreadC...')
+#2 C:\xampp\htdocs\app_bank_sumut\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 C:\xampp\htdocs\app_bank_sumut\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\app_bank_sumut\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2023-06-28 02:30:54 --> syntax error, unexpected token "}"
+#0 C:\xampp\htdocs\app_bank_sumut\system\Router\Router.php(175): CodeIgniter\Router\Router->autoRoute('Home/getUnreadC...')
+#1 C:\xampp\htdocs\app_bank_sumut\system\CodeIgniter.php(726): CodeIgniter\Router\Router->handle('Home/getUnreadC...')
+#2 C:\xampp\htdocs\app_bank_sumut\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 C:\xampp\htdocs\app_bank_sumut\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\app_bank_sumut\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2023-06-28 02:30:54 --> syntax error, unexpected token "}"
+#0 C:\xampp\htdocs\app_bank_sumut\system\Router\Router.php(175): CodeIgniter\Router\Router->autoRoute('Home/getUnreadC...')
+#1 C:\xampp\htdocs\app_bank_sumut\system\CodeIgniter.php(726): CodeIgniter\Router\Router->handle('Home/getUnreadC...')
+#2 C:\xampp\htdocs\app_bank_sumut\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 C:\xampp\htdocs\app_bank_sumut\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\app_bank_sumut\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2023-06-28 02:30:54 --> syntax error, unexpected token "}"
+#0 C:\xampp\htdocs\app_bank_sumut\system\Router\Router.php(175): CodeIgniter\Router\Router->autoRoute('Home/getUnreadC...')
+#1 C:\xampp\htdocs\app_bank_sumut\system\CodeIgniter.php(726): CodeIgniter\Router\Router->handle('Home/getUnreadC...')
+#2 C:\xampp\htdocs\app_bank_sumut\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 C:\xampp\htdocs\app_bank_sumut\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\app_bank_sumut\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2023-06-28 02:30:54 --> syntax error, unexpected token "}"
+#0 C:\xampp\htdocs\app_bank_sumut\system\Router\Router.php(175): CodeIgniter\Router\Router->autoRoute('Home/getUnreadC...')
+#1 C:\xampp\htdocs\app_bank_sumut\system\CodeIgniter.php(726): CodeIgniter\Router\Router->handle('Home/getUnreadC...')
+#2 C:\xampp\htdocs\app_bank_sumut\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 C:\xampp\htdocs\app_bank_sumut\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\app_bank_sumut\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2023-06-28 02:30:54 --> syntax error, unexpected token "}"
+#0 C:\xampp\htdocs\app_bank_sumut\system\Router\Router.php(175): CodeIgniter\Router\Router->autoRoute('Home/getUnreadC...')
+#1 C:\xampp\htdocs\app_bank_sumut\system\CodeIgniter.php(726): CodeIgniter\Router\Router->handle('Home/getUnreadC...')
+#2 C:\xampp\htdocs\app_bank_sumut\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 C:\xampp\htdocs\app_bank_sumut\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\app_bank_sumut\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2023-06-28 02:30:54 --> syntax error, unexpected token "}"
+#0 C:\xampp\htdocs\app_bank_sumut\system\Router\Router.php(175): CodeIgniter\Router\Router->autoRoute('Home/getUnreadC...')
+#1 C:\xampp\htdocs\app_bank_sumut\system\CodeIgniter.php(726): CodeIgniter\Router\Router->handle('Home/getUnreadC...')
+#2 C:\xampp\htdocs\app_bank_sumut\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 C:\xampp\htdocs\app_bank_sumut\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\app_bank_sumut\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2023-06-28 02:31:52 --> syntax error, unexpected token "}"
+#0 C:\xampp\htdocs\app_bank_sumut\system\Router\Router.php(175): CodeIgniter\Router\Router->autoRoute('Home/getUnreadC...')
+#1 C:\xampp\htdocs\app_bank_sumut\system\CodeIgniter.php(726): CodeIgniter\Router\Router->handle('Home/getUnreadC...')
+#2 C:\xampp\htdocs\app_bank_sumut\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 C:\xampp\htdocs\app_bank_sumut\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\app_bank_sumut\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2023-06-28 02:31:53 --> syntax error, unexpected token "}"
+#0 C:\xampp\htdocs\app_bank_sumut\system\Router\Router.php(175): CodeIgniter\Router\Router->autoRoute('Home/getUnreadC...')
+#1 C:\xampp\htdocs\app_bank_sumut\system\CodeIgniter.php(726): CodeIgniter\Router\Router->handle('Home/getUnreadC...')
+#2 C:\xampp\htdocs\app_bank_sumut\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 C:\xampp\htdocs\app_bank_sumut\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\app_bank_sumut\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2023-06-28 02:31:53 --> syntax error, unexpected token "}"
+#0 C:\xampp\htdocs\app_bank_sumut\system\Router\Router.php(175): CodeIgniter\Router\Router->autoRoute('Home/getUnreadC...')
+#1 C:\xampp\htdocs\app_bank_sumut\system\CodeIgniter.php(726): CodeIgniter\Router\Router->handle('Home/getUnreadC...')
+#2 C:\xampp\htdocs\app_bank_sumut\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 C:\xampp\htdocs\app_bank_sumut\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\app_bank_sumut\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2023-06-28 02:31:54 --> syntax error, unexpected token "}"
+#0 C:\xampp\htdocs\app_bank_sumut\system\Router\Router.php(175): CodeIgniter\Router\Router->autoRoute('Home/getUnreadC...')
+#1 C:\xampp\htdocs\app_bank_sumut\system\CodeIgniter.php(726): CodeIgniter\Router\Router->handle('Home/getUnreadC...')
+#2 C:\xampp\htdocs\app_bank_sumut\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 C:\xampp\htdocs\app_bank_sumut\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\app_bank_sumut\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2023-06-28 02:31:54 --> syntax error, unexpected token "}"
+#0 C:\xampp\htdocs\app_bank_sumut\system\Router\Router.php(175): CodeIgniter\Router\Router->autoRoute('Home/getUnreadC...')
+#1 C:\xampp\htdocs\app_bank_sumut\system\CodeIgniter.php(726): CodeIgniter\Router\Router->handle('Home/getUnreadC...')
+#2 C:\xampp\htdocs\app_bank_sumut\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 C:\xampp\htdocs\app_bank_sumut\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\app_bank_sumut\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2023-06-28 02:31:54 --> syntax error, unexpected token "}"
+#0 C:\xampp\htdocs\app_bank_sumut\system\Router\Router.php(175): CodeIgniter\Router\Router->autoRoute('Home/getUnreadC...')
+#1 C:\xampp\htdocs\app_bank_sumut\system\CodeIgniter.php(726): CodeIgniter\Router\Router->handle('Home/getUnreadC...')
+#2 C:\xampp\htdocs\app_bank_sumut\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 C:\xampp\htdocs\app_bank_sumut\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\app_bank_sumut\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2023-06-28 02:31:54 --> syntax error, unexpected token "}"
+#0 C:\xampp\htdocs\app_bank_sumut\system\Router\Router.php(175): CodeIgniter\Router\Router->autoRoute('Home/getUnreadC...')
+#1 C:\xampp\htdocs\app_bank_sumut\system\CodeIgniter.php(726): CodeIgniter\Router\Router->handle('Home/getUnreadC...')
+#2 C:\xampp\htdocs\app_bank_sumut\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 C:\xampp\htdocs\app_bank_sumut\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\app_bank_sumut\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2023-06-28 02:31:54 --> syntax error, unexpected token "}"
+#0 C:\xampp\htdocs\app_bank_sumut\system\Router\Router.php(175): CodeIgniter\Router\Router->autoRoute('Home/getUnreadC...')
+#1 C:\xampp\htdocs\app_bank_sumut\system\CodeIgniter.php(726): CodeIgniter\Router\Router->handle('Home/getUnreadC...')
+#2 C:\xampp\htdocs\app_bank_sumut\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 C:\xampp\htdocs\app_bank_sumut\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\app_bank_sumut\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2023-06-28 02:31:54 --> syntax error, unexpected token "}"
+#0 C:\xampp\htdocs\app_bank_sumut\system\Router\Router.php(175): CodeIgniter\Router\Router->autoRoute('Home/getUnreadC...')
+#1 C:\xampp\htdocs\app_bank_sumut\system\CodeIgniter.php(726): CodeIgniter\Router\Router->handle('Home/getUnreadC...')
+#2 C:\xampp\htdocs\app_bank_sumut\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 C:\xampp\htdocs\app_bank_sumut\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\app_bank_sumut\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2023-06-28 02:32:52 --> syntax error, unexpected token "}"
+#0 C:\xampp\htdocs\app_bank_sumut\system\Router\Router.php(175): CodeIgniter\Router\Router->autoRoute('Home/getUnreadC...')
+#1 C:\xampp\htdocs\app_bank_sumut\system\CodeIgniter.php(726): CodeIgniter\Router\Router->handle('Home/getUnreadC...')
+#2 C:\xampp\htdocs\app_bank_sumut\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 C:\xampp\htdocs\app_bank_sumut\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\app_bank_sumut\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2023-06-28 02:32:53 --> syntax error, unexpected token "}"
+#0 C:\xampp\htdocs\app_bank_sumut\system\Router\Router.php(175): CodeIgniter\Router\Router->autoRoute('Home/getUnreadC...')
+#1 C:\xampp\htdocs\app_bank_sumut\system\CodeIgniter.php(726): CodeIgniter\Router\Router->handle('Home/getUnreadC...')
+#2 C:\xampp\htdocs\app_bank_sumut\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 C:\xampp\htdocs\app_bank_sumut\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\app_bank_sumut\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2023-06-28 02:32:53 --> syntax error, unexpected token "}"
+#0 C:\xampp\htdocs\app_bank_sumut\system\Router\Router.php(175): CodeIgniter\Router\Router->autoRoute('Home/getUnreadC...')
+#1 C:\xampp\htdocs\app_bank_sumut\system\CodeIgniter.php(726): CodeIgniter\Router\Router->handle('Home/getUnreadC...')
+#2 C:\xampp\htdocs\app_bank_sumut\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 C:\xampp\htdocs\app_bank_sumut\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\app_bank_sumut\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2023-06-28 02:32:54 --> syntax error, unexpected token "}"
+#0 C:\xampp\htdocs\app_bank_sumut\system\Router\Router.php(175): CodeIgniter\Router\Router->autoRoute('Home/getUnreadC...')
+#1 C:\xampp\htdocs\app_bank_sumut\system\CodeIgniter.php(726): CodeIgniter\Router\Router->handle('Home/getUnreadC...')
+#2 C:\xampp\htdocs\app_bank_sumut\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 C:\xampp\htdocs\app_bank_sumut\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\app_bank_sumut\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2023-06-28 02:32:54 --> syntax error, unexpected token "}"
+#0 C:\xampp\htdocs\app_bank_sumut\system\Router\Router.php(175): CodeIgniter\Router\Router->autoRoute('Home/getUnreadC...')
+#1 C:\xampp\htdocs\app_bank_sumut\system\CodeIgniter.php(726): CodeIgniter\Router\Router->handle('Home/getUnreadC...')
+#2 C:\xampp\htdocs\app_bank_sumut\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 C:\xampp\htdocs\app_bank_sumut\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\app_bank_sumut\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2023-06-28 02:32:54 --> syntax error, unexpected token "}"
+#0 C:\xampp\htdocs\app_bank_sumut\system\Router\Router.php(175): CodeIgniter\Router\Router->autoRoute('Home/getUnreadC...')
+#1 C:\xampp\htdocs\app_bank_sumut\system\CodeIgniter.php(726): CodeIgniter\Router\Router->handle('Home/getUnreadC...')
+#2 C:\xampp\htdocs\app_bank_sumut\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 C:\xampp\htdocs\app_bank_sumut\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\app_bank_sumut\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2023-06-28 02:32:54 --> syntax error, unexpected token "}"
+#0 C:\xampp\htdocs\app_bank_sumut\system\Router\Router.php(175): CodeIgniter\Router\Router->autoRoute('Home/getUnreadC...')
+#1 C:\xampp\htdocs\app_bank_sumut\system\CodeIgniter.php(726): CodeIgniter\Router\Router->handle('Home/getUnreadC...')
+#2 C:\xampp\htdocs\app_bank_sumut\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 C:\xampp\htdocs\app_bank_sumut\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\app_bank_sumut\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2023-06-28 02:32:54 --> syntax error, unexpected token "}"
+#0 C:\xampp\htdocs\app_bank_sumut\system\Router\Router.php(175): CodeIgniter\Router\Router->autoRoute('Home/getUnreadC...')
+#1 C:\xampp\htdocs\app_bank_sumut\system\CodeIgniter.php(726): CodeIgniter\Router\Router->handle('Home/getUnreadC...')
+#2 C:\xampp\htdocs\app_bank_sumut\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 C:\xampp\htdocs\app_bank_sumut\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\app_bank_sumut\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2023-06-28 02:32:54 --> syntax error, unexpected token "}"
+#0 C:\xampp\htdocs\app_bank_sumut\system\Router\Router.php(175): CodeIgniter\Router\Router->autoRoute('Home/getUnreadC...')
+#1 C:\xampp\htdocs\app_bank_sumut\system\CodeIgniter.php(726): CodeIgniter\Router\Router->handle('Home/getUnreadC...')
+#2 C:\xampp\htdocs\app_bank_sumut\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 C:\xampp\htdocs\app_bank_sumut\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\app_bank_sumut\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2023-06-28 02:32:54 --> syntax error, unexpected token "}"
+#0 C:\xampp\htdocs\app_bank_sumut\system\Router\Router.php(175): CodeIgniter\Router\Router->autoRoute('Home/getUnreadC...')
+#1 C:\xampp\htdocs\app_bank_sumut\system\CodeIgniter.php(726): CodeIgniter\Router\Router->handle('Home/getUnreadC...')
+#2 C:\xampp\htdocs\app_bank_sumut\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 C:\xampp\htdocs\app_bank_sumut\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\app_bank_sumut\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2023-06-28 02:32:54 --> syntax error, unexpected token "}"
+#0 C:\xampp\htdocs\app_bank_sumut\system\Router\Router.php(175): CodeIgniter\Router\Router->autoRoute('Home/getUnreadC...')
+#1 C:\xampp\htdocs\app_bank_sumut\system\CodeIgniter.php(726): CodeIgniter\Router\Router->handle('Home/getUnreadC...')
+#2 C:\xampp\htdocs\app_bank_sumut\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 C:\xampp\htdocs\app_bank_sumut\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\app_bank_sumut\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2023-06-28 02:32:54 --> syntax error, unexpected token "}"
+#0 C:\xampp\htdocs\app_bank_sumut\system\Router\Router.php(175): CodeIgniter\Router\Router->autoRoute('Home/getUnreadC...')
+#1 C:\xampp\htdocs\app_bank_sumut\system\CodeIgniter.php(726): CodeIgniter\Router\Router->handle('Home/getUnreadC...')
+#2 C:\xampp\htdocs\app_bank_sumut\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 C:\xampp\htdocs\app_bank_sumut\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\app_bank_sumut\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2023-06-28 02:32:54 --> syntax error, unexpected token "}"
+#0 C:\xampp\htdocs\app_bank_sumut\system\Router\Router.php(175): CodeIgniter\Router\Router->autoRoute('Home/getUnreadC...')
+#1 C:\xampp\htdocs\app_bank_sumut\system\CodeIgniter.php(726): CodeIgniter\Router\Router->handle('Home/getUnreadC...')
+#2 C:\xampp\htdocs\app_bank_sumut\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 C:\xampp\htdocs\app_bank_sumut\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\app_bank_sumut\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2023-06-28 02:33:52 --> syntax error, unexpected token "}"
+#0 C:\xampp\htdocs\app_bank_sumut\system\Router\Router.php(175): CodeIgniter\Router\Router->autoRoute('Home/getUnreadC...')
+#1 C:\xampp\htdocs\app_bank_sumut\system\CodeIgniter.php(726): CodeIgniter\Router\Router->handle('Home/getUnreadC...')
+#2 C:\xampp\htdocs\app_bank_sumut\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 C:\xampp\htdocs\app_bank_sumut\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\app_bank_sumut\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2023-06-28 02:33:53 --> syntax error, unexpected token "}"
+#0 C:\xampp\htdocs\app_bank_sumut\system\Router\Router.php(175): CodeIgniter\Router\Router->autoRoute('Home/getUnreadC...')
+#1 C:\xampp\htdocs\app_bank_sumut\system\CodeIgniter.php(726): CodeIgniter\Router\Router->handle('Home/getUnreadC...')
+#2 C:\xampp\htdocs\app_bank_sumut\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 C:\xampp\htdocs\app_bank_sumut\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\app_bank_sumut\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2023-06-28 02:33:53 --> syntax error, unexpected token "}"
+#0 C:\xampp\htdocs\app_bank_sumut\system\Router\Router.php(175): CodeIgniter\Router\Router->autoRoute('Home/getUnreadC...')
+#1 C:\xampp\htdocs\app_bank_sumut\system\CodeIgniter.php(726): CodeIgniter\Router\Router->handle('Home/getUnreadC...')
+#2 C:\xampp\htdocs\app_bank_sumut\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 C:\xampp\htdocs\app_bank_sumut\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\app_bank_sumut\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2023-06-28 02:33:54 --> syntax error, unexpected token "}"
+#0 C:\xampp\htdocs\app_bank_sumut\system\Router\Router.php(175): CodeIgniter\Router\Router->autoRoute('Home/getUnreadC...')
+#1 C:\xampp\htdocs\app_bank_sumut\system\CodeIgniter.php(726): CodeIgniter\Router\Router->handle('Home/getUnreadC...')
+#2 C:\xampp\htdocs\app_bank_sumut\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 C:\xampp\htdocs\app_bank_sumut\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\app_bank_sumut\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2023-06-28 02:33:54 --> syntax error, unexpected token "}"
+#0 C:\xampp\htdocs\app_bank_sumut\system\Router\Router.php(175): CodeIgniter\Router\Router->autoRoute('Home/getUnreadC...')
+#1 C:\xampp\htdocs\app_bank_sumut\system\CodeIgniter.php(726): CodeIgniter\Router\Router->handle('Home/getUnreadC...')
+#2 C:\xampp\htdocs\app_bank_sumut\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 C:\xampp\htdocs\app_bank_sumut\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\app_bank_sumut\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2023-06-28 02:33:54 --> syntax error, unexpected token "}"
+#0 C:\xampp\htdocs\app_bank_sumut\system\Router\Router.php(175): CodeIgniter\Router\Router->autoRoute('Home/getUnreadC...')
+#1 C:\xampp\htdocs\app_bank_sumut\system\CodeIgniter.php(726): CodeIgniter\Router\Router->handle('Home/getUnreadC...')
+#2 C:\xampp\htdocs\app_bank_sumut\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 C:\xampp\htdocs\app_bank_sumut\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\app_bank_sumut\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2023-06-28 02:33:54 --> syntax error, unexpected token "}"
+#0 C:\xampp\htdocs\app_bank_sumut\system\Router\Router.php(175): CodeIgniter\Router\Router->autoRoute('Home/getUnreadC...')
+#1 C:\xampp\htdocs\app_bank_sumut\system\CodeIgniter.php(726): CodeIgniter\Router\Router->handle('Home/getUnreadC...')
+#2 C:\xampp\htdocs\app_bank_sumut\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 C:\xampp\htdocs\app_bank_sumut\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\app_bank_sumut\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2023-06-28 02:33:54 --> syntax error, unexpected token "}"
+#0 C:\xampp\htdocs\app_bank_sumut\system\Router\Router.php(175): CodeIgniter\Router\Router->autoRoute('Home/getUnreadC...')
+#1 C:\xampp\htdocs\app_bank_sumut\system\CodeIgniter.php(726): CodeIgniter\Router\Router->handle('Home/getUnreadC...')
+#2 C:\xampp\htdocs\app_bank_sumut\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 C:\xampp\htdocs\app_bank_sumut\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\app_bank_sumut\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2023-06-28 02:33:54 --> syntax error, unexpected token "}"
+#0 C:\xampp\htdocs\app_bank_sumut\system\Router\Router.php(175): CodeIgniter\Router\Router->autoRoute('Home/getUnreadC...')
+#1 C:\xampp\htdocs\app_bank_sumut\system\CodeIgniter.php(726): CodeIgniter\Router\Router->handle('Home/getUnreadC...')
+#2 C:\xampp\htdocs\app_bank_sumut\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 C:\xampp\htdocs\app_bank_sumut\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\app_bank_sumut\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2023-06-28 02:34:52 --> syntax error, unexpected token "}"
+#0 C:\xampp\htdocs\app_bank_sumut\system\Router\Router.php(175): CodeIgniter\Router\Router->autoRoute('Home/getUnreadC...')
+#1 C:\xampp\htdocs\app_bank_sumut\system\CodeIgniter.php(726): CodeIgniter\Router\Router->handle('Home/getUnreadC...')
+#2 C:\xampp\htdocs\app_bank_sumut\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 C:\xampp\htdocs\app_bank_sumut\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\app_bank_sumut\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2023-06-28 02:34:53 --> syntax error, unexpected token "}"
+#0 C:\xampp\htdocs\app_bank_sumut\system\Router\Router.php(175): CodeIgniter\Router\Router->autoRoute('Home/getUnreadC...')
+#1 C:\xampp\htdocs\app_bank_sumut\system\CodeIgniter.php(726): CodeIgniter\Router\Router->handle('Home/getUnreadC...')
+#2 C:\xampp\htdocs\app_bank_sumut\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 C:\xampp\htdocs\app_bank_sumut\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\app_bank_sumut\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2023-06-28 02:34:53 --> syntax error, unexpected token "}"
+#0 C:\xampp\htdocs\app_bank_sumut\system\Router\Router.php(175): CodeIgniter\Router\Router->autoRoute('Home/getUnreadC...')
+#1 C:\xampp\htdocs\app_bank_sumut\system\CodeIgniter.php(726): CodeIgniter\Router\Router->handle('Home/getUnreadC...')
+#2 C:\xampp\htdocs\app_bank_sumut\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 C:\xampp\htdocs\app_bank_sumut\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\app_bank_sumut\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2023-06-28 02:34:54 --> syntax error, unexpected token "}"
+#0 C:\xampp\htdocs\app_bank_sumut\system\Router\Router.php(175): CodeIgniter\Router\Router->autoRoute('Home/getUnreadC...')
+#1 C:\xampp\htdocs\app_bank_sumut\system\CodeIgniter.php(726): CodeIgniter\Router\Router->handle('Home/getUnreadC...')
+#2 C:\xampp\htdocs\app_bank_sumut\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 C:\xampp\htdocs\app_bank_sumut\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\app_bank_sumut\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2023-06-28 02:34:54 --> syntax error, unexpected token "}"
+#0 C:\xampp\htdocs\app_bank_sumut\system\Router\Router.php(175): CodeIgniter\Router\Router->autoRoute('Home/getUnreadC...')
+#1 C:\xampp\htdocs\app_bank_sumut\system\CodeIgniter.php(726): CodeIgniter\Router\Router->handle('Home/getUnreadC...')
+#2 C:\xampp\htdocs\app_bank_sumut\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 C:\xampp\htdocs\app_bank_sumut\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\app_bank_sumut\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2023-06-28 02:34:54 --> syntax error, unexpected token "}"
+#0 C:\xampp\htdocs\app_bank_sumut\system\Router\Router.php(175): CodeIgniter\Router\Router->autoRoute('Home/getUnreadC...')
+#1 C:\xampp\htdocs\app_bank_sumut\system\CodeIgniter.php(726): CodeIgniter\Router\Router->handle('Home/getUnreadC...')
+#2 C:\xampp\htdocs\app_bank_sumut\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 C:\xampp\htdocs\app_bank_sumut\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\app_bank_sumut\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2023-06-28 02:34:54 --> syntax error, unexpected token "}"
+#0 C:\xampp\htdocs\app_bank_sumut\system\Router\Router.php(175): CodeIgniter\Router\Router->autoRoute('Home/getUnreadC...')
+#1 C:\xampp\htdocs\app_bank_sumut\system\CodeIgniter.php(726): CodeIgniter\Router\Router->handle('Home/getUnreadC...')
+#2 C:\xampp\htdocs\app_bank_sumut\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 C:\xampp\htdocs\app_bank_sumut\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\app_bank_sumut\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2023-06-28 02:34:54 --> syntax error, unexpected token "}"
+#0 C:\xampp\htdocs\app_bank_sumut\system\Router\Router.php(175): CodeIgniter\Router\Router->autoRoute('Home/getUnreadC...')
+#1 C:\xampp\htdocs\app_bank_sumut\system\CodeIgniter.php(726): CodeIgniter\Router\Router->handle('Home/getUnreadC...')
+#2 C:\xampp\htdocs\app_bank_sumut\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 C:\xampp\htdocs\app_bank_sumut\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\app_bank_sumut\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2023-06-28 02:34:54 --> syntax error, unexpected token "}"
+#0 C:\xampp\htdocs\app_bank_sumut\system\Router\Router.php(175): CodeIgniter\Router\Router->autoRoute('Home/getUnreadC...')
+#1 C:\xampp\htdocs\app_bank_sumut\system\CodeIgniter.php(726): CodeIgniter\Router\Router->handle('Home/getUnreadC...')
+#2 C:\xampp\htdocs\app_bank_sumut\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 C:\xampp\htdocs\app_bank_sumut\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\app_bank_sumut\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2023-06-28 02:35:52 --> syntax error, unexpected token "}"
+#0 C:\xampp\htdocs\app_bank_sumut\system\Router\Router.php(175): CodeIgniter\Router\Router->autoRoute('Home/getUnreadC...')
+#1 C:\xampp\htdocs\app_bank_sumut\system\CodeIgniter.php(726): CodeIgniter\Router\Router->handle('Home/getUnreadC...')
+#2 C:\xampp\htdocs\app_bank_sumut\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 C:\xampp\htdocs\app_bank_sumut\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\app_bank_sumut\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2023-06-28 02:35:53 --> syntax error, unexpected token "}"
+#0 C:\xampp\htdocs\app_bank_sumut\system\Router\Router.php(175): CodeIgniter\Router\Router->autoRoute('Home/getUnreadC...')
+#1 C:\xampp\htdocs\app_bank_sumut\system\CodeIgniter.php(726): CodeIgniter\Router\Router->handle('Home/getUnreadC...')
+#2 C:\xampp\htdocs\app_bank_sumut\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 C:\xampp\htdocs\app_bank_sumut\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\app_bank_sumut\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2023-06-28 02:35:53 --> syntax error, unexpected token "}"
+#0 C:\xampp\htdocs\app_bank_sumut\system\Router\Router.php(175): CodeIgniter\Router\Router->autoRoute('Home/getUnreadC...')
+#1 C:\xampp\htdocs\app_bank_sumut\system\CodeIgniter.php(726): CodeIgniter\Router\Router->handle('Home/getUnreadC...')
+#2 C:\xampp\htdocs\app_bank_sumut\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 C:\xampp\htdocs\app_bank_sumut\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\app_bank_sumut\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2023-06-28 02:35:54 --> syntax error, unexpected token "}"
+#0 C:\xampp\htdocs\app_bank_sumut\system\Router\Router.php(175): CodeIgniter\Router\Router->autoRoute('Home/getUnreadC...')
+#1 C:\xampp\htdocs\app_bank_sumut\system\CodeIgniter.php(726): CodeIgniter\Router\Router->handle('Home/getUnreadC...')
+#2 C:\xampp\htdocs\app_bank_sumut\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 C:\xampp\htdocs\app_bank_sumut\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\app_bank_sumut\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2023-06-28 02:35:54 --> syntax error, unexpected token "}"
+#0 C:\xampp\htdocs\app_bank_sumut\system\Router\Router.php(175): CodeIgniter\Router\Router->autoRoute('Home/getUnreadC...')
+#1 C:\xampp\htdocs\app_bank_sumut\system\CodeIgniter.php(726): CodeIgniter\Router\Router->handle('Home/getUnreadC...')
+#2 C:\xampp\htdocs\app_bank_sumut\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 C:\xampp\htdocs\app_bank_sumut\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\app_bank_sumut\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2023-06-28 02:35:54 --> syntax error, unexpected token "}"
+#0 C:\xampp\htdocs\app_bank_sumut\system\Router\Router.php(175): CodeIgniter\Router\Router->autoRoute('Home/getUnreadC...')
+#1 C:\xampp\htdocs\app_bank_sumut\system\CodeIgniter.php(726): CodeIgniter\Router\Router->handle('Home/getUnreadC...')
+#2 C:\xampp\htdocs\app_bank_sumut\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 C:\xampp\htdocs\app_bank_sumut\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\app_bank_sumut\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2023-06-28 02:35:54 --> syntax error, unexpected token "}"
+#0 C:\xampp\htdocs\app_bank_sumut\system\Router\Router.php(175): CodeIgniter\Router\Router->autoRoute('Home/getUnreadC...')
+#1 C:\xampp\htdocs\app_bank_sumut\system\CodeIgniter.php(726): CodeIgniter\Router\Router->handle('Home/getUnreadC...')
+#2 C:\xampp\htdocs\app_bank_sumut\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 C:\xampp\htdocs\app_bank_sumut\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\app_bank_sumut\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2023-06-28 02:35:54 --> syntax error, unexpected token "}"
+#0 C:\xampp\htdocs\app_bank_sumut\system\Router\Router.php(175): CodeIgniter\Router\Router->autoRoute('Home/getUnreadC...')
+#1 C:\xampp\htdocs\app_bank_sumut\system\CodeIgniter.php(726): CodeIgniter\Router\Router->handle('Home/getUnreadC...')
+#2 C:\xampp\htdocs\app_bank_sumut\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 C:\xampp\htdocs\app_bank_sumut\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\app_bank_sumut\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2023-06-28 02:35:54 --> syntax error, unexpected token "}"
+#0 C:\xampp\htdocs\app_bank_sumut\system\Router\Router.php(175): CodeIgniter\Router\Router->autoRoute('Home/getUnreadC...')
+#1 C:\xampp\htdocs\app_bank_sumut\system\CodeIgniter.php(726): CodeIgniter\Router\Router->handle('Home/getUnreadC...')
+#2 C:\xampp\htdocs\app_bank_sumut\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 C:\xampp\htdocs\app_bank_sumut\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\app_bank_sumut\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2023-06-28 02:35:54 --> syntax error, unexpected token "}"
+#0 C:\xampp\htdocs\app_bank_sumut\system\Router\Router.php(175): CodeIgniter\Router\Router->autoRoute('Home/getUnreadC...')
+#1 C:\xampp\htdocs\app_bank_sumut\system\CodeIgniter.php(726): CodeIgniter\Router\Router->handle('Home/getUnreadC...')
+#2 C:\xampp\htdocs\app_bank_sumut\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 C:\xampp\htdocs\app_bank_sumut\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\app_bank_sumut\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2023-06-28 02:35:54 --> syntax error, unexpected token "}"
+#0 C:\xampp\htdocs\app_bank_sumut\system\Router\Router.php(175): CodeIgniter\Router\Router->autoRoute('Home/getUnreadC...')
+#1 C:\xampp\htdocs\app_bank_sumut\system\CodeIgniter.php(726): CodeIgniter\Router\Router->handle('Home/getUnreadC...')
+#2 C:\xampp\htdocs\app_bank_sumut\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 C:\xampp\htdocs\app_bank_sumut\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\app_bank_sumut\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2023-06-28 02:35:54 --> syntax error, unexpected token "}"
+#0 C:\xampp\htdocs\app_bank_sumut\system\Router\Router.php(175): CodeIgniter\Router\Router->autoRoute('Home/getUnreadC...')
+#1 C:\xampp\htdocs\app_bank_sumut\system\CodeIgniter.php(726): CodeIgniter\Router\Router->handle('Home/getUnreadC...')
+#2 C:\xampp\htdocs\app_bank_sumut\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 C:\xampp\htdocs\app_bank_sumut\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\app_bank_sumut\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2023-06-28 02:35:54 --> syntax error, unexpected token "}"
+#0 C:\xampp\htdocs\app_bank_sumut\system\Router\Router.php(175): CodeIgniter\Router\Router->autoRoute('Home/getUnreadC...')
+#1 C:\xampp\htdocs\app_bank_sumut\system\CodeIgniter.php(726): CodeIgniter\Router\Router->handle('Home/getUnreadC...')
+#2 C:\xampp\htdocs\app_bank_sumut\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 C:\xampp\htdocs\app_bank_sumut\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\app_bank_sumut\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2023-06-28 02:36:52 --> syntax error, unexpected token "}"
+#0 C:\xampp\htdocs\app_bank_sumut\system\Router\Router.php(175): CodeIgniter\Router\Router->autoRoute('Home/getUnreadC...')
+#1 C:\xampp\htdocs\app_bank_sumut\system\CodeIgniter.php(726): CodeIgniter\Router\Router->handle('Home/getUnreadC...')
+#2 C:\xampp\htdocs\app_bank_sumut\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 C:\xampp\htdocs\app_bank_sumut\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\app_bank_sumut\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2023-06-28 02:36:54 --> syntax error, unexpected token "}"
+#0 C:\xampp\htdocs\app_bank_sumut\system\Router\Router.php(175): CodeIgniter\Router\Router->autoRoute('Home/getUnreadC...')
+#1 C:\xampp\htdocs\app_bank_sumut\system\CodeIgniter.php(726): CodeIgniter\Router\Router->handle('Home/getUnreadC...')
+#2 C:\xampp\htdocs\app_bank_sumut\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 C:\xampp\htdocs\app_bank_sumut\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\app_bank_sumut\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2023-06-28 02:36:54 --> syntax error, unexpected token "}"
+#0 C:\xampp\htdocs\app_bank_sumut\system\Router\Router.php(175): CodeIgniter\Router\Router->autoRoute('Home/getUnreadC...')
+#1 C:\xampp\htdocs\app_bank_sumut\system\CodeIgniter.php(726): CodeIgniter\Router\Router->handle('Home/getUnreadC...')
+#2 C:\xampp\htdocs\app_bank_sumut\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 C:\xampp\htdocs\app_bank_sumut\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\app_bank_sumut\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2023-06-28 02:36:54 --> syntax error, unexpected token "}"
+#0 C:\xampp\htdocs\app_bank_sumut\system\Router\Router.php(175): CodeIgniter\Router\Router->autoRoute('Home/getUnreadC...')
+#1 C:\xampp\htdocs\app_bank_sumut\system\CodeIgniter.php(726): CodeIgniter\Router\Router->handle('Home/getUnreadC...')
+#2 C:\xampp\htdocs\app_bank_sumut\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 C:\xampp\htdocs\app_bank_sumut\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\app_bank_sumut\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2023-06-28 02:36:55 --> syntax error, unexpected token "}"
+#0 C:\xampp\htdocs\app_bank_sumut\system\Router\Router.php(175): CodeIgniter\Router\Router->autoRoute('Home/getUnreadC...')
+#1 C:\xampp\htdocs\app_bank_sumut\system\CodeIgniter.php(726): CodeIgniter\Router\Router->handle('Home/getUnreadC...')
+#2 C:\xampp\htdocs\app_bank_sumut\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 C:\xampp\htdocs\app_bank_sumut\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\app_bank_sumut\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2023-06-28 02:36:55 --> syntax error, unexpected token "}"
+#0 C:\xampp\htdocs\app_bank_sumut\system\Router\Router.php(175): CodeIgniter\Router\Router->autoRoute('Home/getUnreadC...')
+#1 C:\xampp\htdocs\app_bank_sumut\system\CodeIgniter.php(726): CodeIgniter\Router\Router->handle('Home/getUnreadC...')
+#2 C:\xampp\htdocs\app_bank_sumut\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 C:\xampp\htdocs\app_bank_sumut\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\app_bank_sumut\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2023-06-28 02:36:55 --> syntax error, unexpected token "}"
+#0 C:\xampp\htdocs\app_bank_sumut\system\Router\Router.php(175): CodeIgniter\Router\Router->autoRoute('Home/getUnreadC...')
+#1 C:\xampp\htdocs\app_bank_sumut\system\CodeIgniter.php(726): CodeIgniter\Router\Router->handle('Home/getUnreadC...')
+#2 C:\xampp\htdocs\app_bank_sumut\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 C:\xampp\htdocs\app_bank_sumut\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\app_bank_sumut\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2023-06-28 02:36:55 --> syntax error, unexpected token "}"
+#0 C:\xampp\htdocs\app_bank_sumut\system\Router\Router.php(175): CodeIgniter\Router\Router->autoRoute('Home/getUnreadC...')
+#1 C:\xampp\htdocs\app_bank_sumut\system\CodeIgniter.php(726): CodeIgniter\Router\Router->handle('Home/getUnreadC...')
+#2 C:\xampp\htdocs\app_bank_sumut\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 C:\xampp\htdocs\app_bank_sumut\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\app_bank_sumut\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2023-06-28 02:36:55 --> syntax error, unexpected token "}"
+#0 C:\xampp\htdocs\app_bank_sumut\system\Router\Router.php(175): CodeIgniter\Router\Router->autoRoute('Home/getUnreadC...')
+#1 C:\xampp\htdocs\app_bank_sumut\system\CodeIgniter.php(726): CodeIgniter\Router\Router->handle('Home/getUnreadC...')
+#2 C:\xampp\htdocs\app_bank_sumut\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 C:\xampp\htdocs\app_bank_sumut\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\app_bank_sumut\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2023-06-28 02:37:22 --> Unsupported operand types: stdClass + stdClass
+#0 C:\xampp\htdocs\app_bank_sumut\system\CodeIgniter.php(832): App\Controllers\Home->getUnreadCount()
+#1 C:\xampp\htdocs\app_bank_sumut\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#2 C:\xampp\htdocs\app_bank_sumut\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\app_bank_sumut\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2023-06-28 02:37:22 --> Unsupported operand types: stdClass + stdClass
+#0 C:\xampp\htdocs\app_bank_sumut\system\CodeIgniter.php(832): App\Controllers\Home->getUnreadCount()
+#1 C:\xampp\htdocs\app_bank_sumut\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#2 C:\xampp\htdocs\app_bank_sumut\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\app_bank_sumut\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2023-06-28 02:37:56 --> Unsupported operand types: stdClass + stdClass
+#0 C:\xampp\htdocs\app_bank_sumut\system\CodeIgniter.php(832): App\Controllers\Home->getUnreadCount()
+#1 C:\xampp\htdocs\app_bank_sumut\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#2 C:\xampp\htdocs\app_bank_sumut\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\app_bank_sumut\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2023-06-28 02:37:56 --> Unsupported operand types: stdClass + stdClass
+#0 C:\xampp\htdocs\app_bank_sumut\system\CodeIgniter.php(832): App\Controllers\Home->getUnreadCount()
+#1 C:\xampp\htdocs\app_bank_sumut\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#2 C:\xampp\htdocs\app_bank_sumut\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\app_bank_sumut\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2023-06-28 02:38:55 --> Unsupported operand types: stdClass + stdClass
+#0 C:\xampp\htdocs\app_bank_sumut\system\CodeIgniter.php(832): App\Controllers\Home->getUnreadCount()
+#1 C:\xampp\htdocs\app_bank_sumut\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#2 C:\xampp\htdocs\app_bank_sumut\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\app_bank_sumut\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2023-06-28 02:38:56 --> Unsupported operand types: stdClass + stdClass
+#0 C:\xampp\htdocs\app_bank_sumut\system\CodeIgniter.php(832): App\Controllers\Home->getUnreadCount()
+#1 C:\xampp\htdocs\app_bank_sumut\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#2 C:\xampp\htdocs\app_bank_sumut\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\app_bank_sumut\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2023-06-28 02:39:55 --> Unsupported operand types: stdClass + stdClass
+#0 C:\xampp\htdocs\app_bank_sumut\system\CodeIgniter.php(832): App\Controllers\Home->getUnreadCount()
+#1 C:\xampp\htdocs\app_bank_sumut\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#2 C:\xampp\htdocs\app_bank_sumut\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\app_bank_sumut\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2023-06-28 02:39:56 --> Unsupported operand types: stdClass + stdClass
+#0 C:\xampp\htdocs\app_bank_sumut\system\CodeIgniter.php(832): App\Controllers\Home->getUnreadCount()
+#1 C:\xampp\htdocs\app_bank_sumut\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#2 C:\xampp\htdocs\app_bank_sumut\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\app_bank_sumut\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2023-06-28 02:40:55 --> Attempt to read property "Count_Unread_Msg" on int
+#0 C:\xampp\htdocs\app_bank_sumut\app\Controllers\Home.php(649): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read...', 'C:\\xampp\\htdocs...', 649)
+#1 C:\xampp\htdocs\app_bank_sumut\system\CodeIgniter.php(832): App\Controllers\Home->getUnreadCount()
+#2 C:\xampp\htdocs\app_bank_sumut\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 C:\xampp\htdocs\app_bank_sumut\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\app_bank_sumut\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}

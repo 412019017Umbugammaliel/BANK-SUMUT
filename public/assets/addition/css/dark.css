@@ -1,0 +1,15 @@
+:root {
+    --bs-app:#39393d;
+
+    /* card */
+    --bs-app-card: #312e2e;
+    --bs-app-card-title:#fff;
+    --bs-body-color:#fff;
+
+    /* Navigasi */
+    --bs--app-header:#312e2e;
+
+    /* icon */
+    --bs-app-utility-item:#ffffff;
+    --bs-app-utility-item-hover:#ffffff;
+}

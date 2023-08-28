@@ -1,0 +1,40 @@
+Array ( 
+	[sample] => Array ( 
+		[0] => Array (
+			[order_code] => #00001 
+			[id_user] => Guest_ElRcT_51459 
+			[customer] => Pemkab Simalungun 
+			[product] => Cloude package 1 
+			[date] => 2023-02-01 
+			[time] => 10:12:00 
+			[payment] => Paid 
+			[total] => 10000000 
+		) 
+		[1] => Array ( 
+			[order_code] => #00002 
+			[id_user] => Guest_lPjUE_24711 
+			[customer] => Pemkab Bekasi 
+			[product] => Cloude package 1 
+			[date] => 2023-02-15 
+			[time] => 18:22:00 
+			[payment] => Pending 
+			[total] => 11000000 
+		) 
+	) 
+) 
+
+Array ( 
+	[cartdata] => Array ( 
+		[0] => Array ( 
+			[cpu_order] => 8 
+			[memory_order] => 4 
+			[server_id] => Guest_ElRcT_51459 
+			[cpu_size_now] => 4 
+			[memory_size_now] => 6 
+		) 
+	) 
+) 
+Array ( 
+	[datacart] => Array ( 
+		[0] => Array ( 
+			[cpu_order] => 8 [memory_order] => 2 [server_id] => Guest_ElRcT_51459 [cpu_size_now] => 4 [memory_size_now] => 6 ) ) ) 

@@ -1,0 +1,173 @@
+CRITICAL - 2023-06-21 01:35:36 --> File not found: public/file_upload/
+#0 C:\xampp\htdocs\app_bank_sumut\system\Files\File.php(46): CodeIgniter\Files\Exceptions\FileNotFoundException::forFileNotFound('public/file_upl...')
+#1 C:\xampp\htdocs\app_bank_sumut\system\HTTP\DownloadResponse.php(107): CodeIgniter\Files\File->__construct('public/file_upl...', true)
+#2 C:\xampp\htdocs\app_bank_sumut\system\HTTP\ResponseTrait.php(774): CodeIgniter\HTTP\DownloadResponse->setFilePath('public/file_upl...')
+#3 C:\xampp\htdocs\app_bank_sumut\app\Controllers\LiveChatController.php(292): CodeIgniter\HTTP\Response->download('', NULL)
+#4 C:\xampp\htdocs\app_bank_sumut\system\CodeIgniter.php(832): App\Controllers\LiveChatController->downloadFile()
+#5 C:\xampp\htdocs\app_bank_sumut\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\LiveChatController))
+#6 C:\xampp\htdocs\app_bank_sumut\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\app_bank_sumut\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2023-06-21 01:42:33 --> File not found: public/file_upload/
+#0 C:\xampp\htdocs\app_bank_sumut\system\Files\File.php(46): CodeIgniter\Files\Exceptions\FileNotFoundException::forFileNotFound('public/file_upl...')
+#1 C:\xampp\htdocs\app_bank_sumut\system\HTTP\DownloadResponse.php(107): CodeIgniter\Files\File->__construct('public/file_upl...', true)
+#2 C:\xampp\htdocs\app_bank_sumut\system\HTTP\ResponseTrait.php(774): CodeIgniter\HTTP\DownloadResponse->setFilePath('public/file_upl...')
+#3 C:\xampp\htdocs\app_bank_sumut\app\Controllers\LiveChatController.php(293): CodeIgniter\HTTP\Response->download('', NULL)
+#4 C:\xampp\htdocs\app_bank_sumut\system\CodeIgniter.php(832): App\Controllers\LiveChatController->downloadFile()
+#5 C:\xampp\htdocs\app_bank_sumut\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\LiveChatController))
+#6 C:\xampp\htdocs\app_bank_sumut\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\app_bank_sumut\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2023-06-21 01:42:57 --> File not found: public/file_upload/
+#0 C:\xampp\htdocs\app_bank_sumut\system\Files\File.php(46): CodeIgniter\Files\Exceptions\FileNotFoundException::forFileNotFound('public/file_upl...')
+#1 C:\xampp\htdocs\app_bank_sumut\system\HTTP\DownloadResponse.php(107): CodeIgniter\Files\File->__construct('public/file_upl...', true)
+#2 C:\xampp\htdocs\app_bank_sumut\system\HTTP\ResponseTrait.php(774): CodeIgniter\HTTP\DownloadResponse->setFilePath('public/file_upl...')
+#3 C:\xampp\htdocs\app_bank_sumut\app\Controllers\LiveChatController.php(293): CodeIgniter\HTTP\Response->download('', NULL)
+#4 C:\xampp\htdocs\app_bank_sumut\system\CodeIgniter.php(832): App\Controllers\LiveChatController->downloadFile()
+#5 C:\xampp\htdocs\app_bank_sumut\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\LiveChatController))
+#6 C:\xampp\htdocs\app_bank_sumut\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\app_bank_sumut\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2023-06-21 02:09:30 --> Could not move file php8C0F.tmp to C:\xampp\htdocs\app_bank_sumut\public/file_upload/ ()
+#0 C:\xampp\htdocs\app_bank_sumut\system\HTTP\Files\UploadedFile.php(149): CodeIgniter\HTTP\Exceptions\HTTPException::forMoveFailed('php8C0F.tmp', 'C:\\xampp\\htdocs...', '')
+#1 C:\xampp\htdocs\app_bank_sumut\app\Controllers\LiveChatController.php(234): CodeIgniter\HTTP\Files\UploadedFile->move('C:\\xampp\\htdocs...', 'user-2_2023-06-...')
+#2 C:\xampp\htdocs\app_bank_sumut\system\CodeIgniter.php(832): App\Controllers\LiveChatController->chatActivity()
+#3 C:\xampp\htdocs\app_bank_sumut\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\LiveChatController))
+#4 C:\xampp\htdocs\app_bank_sumut\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\app_bank_sumut\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2023-06-21 02:37:06 --> Could not move file phpD0A1.tmp to C:\xampp\htdocs\app_bank_sumut\public/file_upload/ ()
+#0 C:\xampp\htdocs\app_bank_sumut\system\HTTP\Files\UploadedFile.php(149): CodeIgniter\HTTP\Exceptions\HTTPException::forMoveFailed('phpD0A1.tmp', 'C:\\xampp\\htdocs...', '')
+#1 C:\xampp\htdocs\app_bank_sumut\app\Controllers\LiveChatController.php(234): CodeIgniter\HTTP\Files\UploadedFile->move('C:\\xampp\\htdocs...', 'user-3_2023-06-...')
+#2 C:\xampp\htdocs\app_bank_sumut\system\CodeIgniter.php(832): App\Controllers\LiveChatController->chatActivity()
+#3 C:\xampp\htdocs\app_bank_sumut\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\LiveChatController))
+#4 C:\xampp\htdocs\app_bank_sumut\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\app_bank_sumut\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2023-06-21 02:42:36 --> Could not move file phpD871.tmp to C:\xampp\htdocs\app_bank_sumut\public/file_upload/ ()
+#0 C:\xampp\htdocs\app_bank_sumut\system\HTTP\Files\UploadedFile.php(149): CodeIgniter\HTTP\Exceptions\HTTPException::forMoveFailed('phpD871.tmp', 'C:\\xampp\\htdocs...', '')
+#1 C:\xampp\htdocs\app_bank_sumut\app\Controllers\LiveChatController.php(235): CodeIgniter\HTTP\Files\UploadedFile->move('C:\\xampp\\htdocs...', 'user-5_2023-06-...')
+#2 C:\xampp\htdocs\app_bank_sumut\system\CodeIgniter.php(832): App\Controllers\LiveChatController->chatActivity()
+#3 C:\xampp\htdocs\app_bank_sumut\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\LiveChatController))
+#4 C:\xampp\htdocs\app_bank_sumut\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\app_bank_sumut\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2023-06-21 02:46:12 --> Could not move file php2396.tmp to C:\xampp\htdocs\app_bank_sumut\public/file_upload/ ()
+#0 C:\xampp\htdocs\app_bank_sumut\system\HTTP\Files\UploadedFile.php(149): CodeIgniter\HTTP\Exceptions\HTTPException::forMoveFailed('php2396.tmp', 'C:\\xampp\\htdocs...', '')
+#1 C:\xampp\htdocs\app_bank_sumut\app\Controllers\LiveChatController.php(235): CodeIgniter\HTTP\Files\UploadedFile->move('C:\\xampp\\htdocs...', 'user-6_2023-06-...')
+#2 C:\xampp\htdocs\app_bank_sumut\system\CodeIgniter.php(832): App\Controllers\LiveChatController->chatActivity()
+#3 C:\xampp\htdocs\app_bank_sumut\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\LiveChatController))
+#4 C:\xampp\htdocs\app_bank_sumut\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\app_bank_sumut\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2023-06-21 02:49:06 --> File not found: public/file_upload/
+#0 C:\xampp\htdocs\app_bank_sumut\system\Files\File.php(46): CodeIgniter\Files\Exceptions\FileNotFoundException::forFileNotFound('public/file_upl...')
+#1 C:\xampp\htdocs\app_bank_sumut\system\HTTP\DownloadResponse.php(107): CodeIgniter\Files\File->__construct('public/file_upl...', true)
+#2 C:\xampp\htdocs\app_bank_sumut\system\HTTP\ResponseTrait.php(774): CodeIgniter\HTTP\DownloadResponse->setFilePath('public/file_upl...')
+#3 C:\xampp\htdocs\app_bank_sumut\app\Controllers\LiveChatController.php(297): CodeIgniter\HTTP\Response->download('', NULL)
+#4 C:\xampp\htdocs\app_bank_sumut\system\CodeIgniter.php(832): App\Controllers\LiveChatController->downloadFile()
+#5 C:\xampp\htdocs\app_bank_sumut\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\LiveChatController))
+#6 C:\xampp\htdocs\app_bank_sumut\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\app_bank_sumut\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2023-06-21 02:55:56 --> File not found: public/file_upload/user-6_2023-06-21_02-48-26.jpg
+#0 C:\xampp\htdocs\app_bank_sumut\system\Files\File.php(46): CodeIgniter\Files\Exceptions\FileNotFoundException::forFileNotFound('public/file_upl...')
+#1 C:\xampp\htdocs\app_bank_sumut\system\HTTP\DownloadResponse.php(107): CodeIgniter\Files\File->__construct('public/file_upl...', true)
+#2 C:\xampp\htdocs\app_bank_sumut\system\HTTP\ResponseTrait.php(774): CodeIgniter\HTTP\DownloadResponse->setFilePath('public/file_upl...')
+#3 C:\xampp\htdocs\app_bank_sumut\app\Controllers\LiveChatController.php(297): CodeIgniter\HTTP\Response->download('user-6_2023-06-...', NULL)
+#4 C:\xampp\htdocs\app_bank_sumut\system\CodeIgniter.php(832): App\Controllers\LiveChatController->downloadFile()
+#5 C:\xampp\htdocs\app_bank_sumut\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\LiveChatController))
+#6 C:\xampp\htdocs\app_bank_sumut\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\app_bank_sumut\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2023-06-21 03:06:53 --> Undefined array key 0
+#0 C:\xampp\htdocs\app_bank_sumut\app\Controllers\LiveChatController.php(205): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'C:\\xampp\\htdocs...', 205)
+#1 C:\xampp\htdocs\app_bank_sumut\system\CodeIgniter.php(832): App\Controllers\LiveChatController->chatActivity()
+#2 C:\xampp\htdocs\app_bank_sumut\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\LiveChatController))
+#3 C:\xampp\htdocs\app_bank_sumut\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\app_bank_sumut\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2023-06-21 03:07:02 --> Undefined array key 0
+#0 C:\xampp\htdocs\app_bank_sumut\app\Controllers\LiveChatController.php(205): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'C:\\xampp\\htdocs...', 205)
+#1 C:\xampp\htdocs\app_bank_sumut\system\CodeIgniter.php(832): App\Controllers\LiveChatController->chatActivity()
+#2 C:\xampp\htdocs\app_bank_sumut\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\LiveChatController))
+#3 C:\xampp\htdocs\app_bank_sumut\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\app_bank_sumut\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2023-06-21 03:07:26 --> Undefined array key 0
+#0 C:\xampp\htdocs\app_bank_sumut\app\Controllers\LiveChatController.php(205): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'C:\\xampp\\htdocs...', 205)
+#1 C:\xampp\htdocs\app_bank_sumut\system\CodeIgniter.php(832): App\Controllers\LiveChatController->chatActivity()
+#2 C:\xampp\htdocs\app_bank_sumut\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\LiveChatController))
+#3 C:\xampp\htdocs\app_bank_sumut\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\app_bank_sumut\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2023-06-21 03:08:36 --> Undefined array key 0
+#0 C:\xampp\htdocs\app_bank_sumut\app\Controllers\LiveChatController.php(205): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'C:\\xampp\\htdocs...', 205)
+#1 C:\xampp\htdocs\app_bank_sumut\system\CodeIgniter.php(832): App\Controllers\LiveChatController->chatActivity()
+#2 C:\xampp\htdocs\app_bank_sumut\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\LiveChatController))
+#3 C:\xampp\htdocs\app_bank_sumut\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\app_bank_sumut\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2023-06-21 03:09:07 --> Undefined array key 0
+#0 C:\xampp\htdocs\app_bank_sumut\app\Controllers\LiveChatController.php(205): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'C:\\xampp\\htdocs...', 205)
+#1 C:\xampp\htdocs\app_bank_sumut\system\CodeIgniter.php(832): App\Controllers\LiveChatController->chatActivity()
+#2 C:\xampp\htdocs\app_bank_sumut\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\LiveChatController))
+#3 C:\xampp\htdocs\app_bank_sumut\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\app_bank_sumut\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2023-06-21 03:10:09 --> Undefined array key 0
+#0 C:\xampp\htdocs\app_bank_sumut\app\Controllers\LiveChatController.php(205): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'C:\\xampp\\htdocs...', 205)
+#1 C:\xampp\htdocs\app_bank_sumut\system\CodeIgniter.php(832): App\Controllers\LiveChatController->chatActivity()
+#2 C:\xampp\htdocs\app_bank_sumut\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\LiveChatController))
+#3 C:\xampp\htdocs\app_bank_sumut\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\app_bank_sumut\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2023-06-21 03:11:28 --> Undefined array key 0
+#0 C:\xampp\htdocs\app_bank_sumut\app\Controllers\LiveChatController.php(205): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'C:\\xampp\\htdocs...', 205)
+#1 C:\xampp\htdocs\app_bank_sumut\system\CodeIgniter.php(832): App\Controllers\LiveChatController->chatActivity()
+#2 C:\xampp\htdocs\app_bank_sumut\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\LiveChatController))
+#3 C:\xampp\htdocs\app_bank_sumut\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\app_bank_sumut\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2023-06-21 03:13:32 --> Undefined array key 0
+#0 C:\xampp\htdocs\app_bank_sumut\app\Controllers\LiveChatController.php(205): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'C:\\xampp\\htdocs...', 205)
+#1 C:\xampp\htdocs\app_bank_sumut\system\CodeIgniter.php(832): App\Controllers\LiveChatController->chatActivity()
+#2 C:\xampp\htdocs\app_bank_sumut\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\LiveChatController))
+#3 C:\xampp\htdocs\app_bank_sumut\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\app_bank_sumut\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2023-06-21 03:16:09 --> Undefined array key 0
+#0 C:\xampp\htdocs\app_bank_sumut\app\Controllers\LiveChatController.php(205): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'C:\\xampp\\htdocs...', 205)
+#1 C:\xampp\htdocs\app_bank_sumut\system\CodeIgniter.php(832): App\Controllers\LiveChatController->chatActivity()
+#2 C:\xampp\htdocs\app_bank_sumut\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\LiveChatController))
+#3 C:\xampp\htdocs\app_bank_sumut\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\app_bank_sumut\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2023-06-21 03:17:07 --> Undefined array key 0
+#0 C:\xampp\htdocs\app_bank_sumut\app\Controllers\LiveChatController.php(205): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'C:\\xampp\\htdocs...', 205)
+#1 C:\xampp\htdocs\app_bank_sumut\system\CodeIgniter.php(832): App\Controllers\LiveChatController->chatActivity()
+#2 C:\xampp\htdocs\app_bank_sumut\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\LiveChatController))
+#3 C:\xampp\htdocs\app_bank_sumut\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\app_bank_sumut\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2023-06-21 03:17:09 --> Undefined array key 0
+#0 C:\xampp\htdocs\app_bank_sumut\app\Controllers\LiveChatController.php(205): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'C:\\xampp\\htdocs...', 205)
+#1 C:\xampp\htdocs\app_bank_sumut\system\CodeIgniter.php(832): App\Controllers\LiveChatController->chatActivity()
+#2 C:\xampp\htdocs\app_bank_sumut\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\LiveChatController))
+#3 C:\xampp\htdocs\app_bank_sumut\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\app_bank_sumut\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2023-06-21 03:17:50 --> Undefined array key 0
+#0 C:\xampp\htdocs\app_bank_sumut\app\Controllers\LiveChatController.php(205): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'C:\\xampp\\htdocs...', 205)
+#1 C:\xampp\htdocs\app_bank_sumut\system\CodeIgniter.php(832): App\Controllers\LiveChatController->chatActivity()
+#2 C:\xampp\htdocs\app_bank_sumut\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\LiveChatController))
+#3 C:\xampp\htdocs\app_bank_sumut\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\app_bank_sumut\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2023-06-21 03:20:27 --> Undefined array key 0
+#0 C:\xampp\htdocs\app_bank_sumut\app\Controllers\LiveChatController.php(205): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'C:\\xampp\\htdocs...', 205)
+#1 C:\xampp\htdocs\app_bank_sumut\system\CodeIgniter.php(832): App\Controllers\LiveChatController->chatActivity()
+#2 C:\xampp\htdocs\app_bank_sumut\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\LiveChatController))
+#3 C:\xampp\htdocs\app_bank_sumut\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\app_bank_sumut\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}

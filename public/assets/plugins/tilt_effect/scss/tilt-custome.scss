@@ -1,0 +1,36 @@
+// .js-tilt-glare {
+//     border-radius: 20px;
+// }
+.cardServer {
+    -webkit-transform-style: preserve-3d;
+    transform-style: preserve-3d;
+    -webkit-transform: perspective(20000px);
+    transform: perspective(20000px);
+}
+.cardServer > .cardInner {
+   
+    -webkit-transform: translateZ(50px);
+    transform: translateZ(50px);    
+}
+// .cardServer > .cardInner::after {
+//     -webkit-transform: translateZ(-60px);
+//     transform: translateZ(-60px);
+   
+// }
+// .cardServer > .cardInner::before {
+//     -webkit-transform: translateZ(-60px);
+//     transform: translateZ(-60px);
+    
+// }
+
+// .cardServer:hover > .cardInner::after {
+//     -webkit-transform: translateZ(-60px);
+//     transform: translateZ(-60px);
+    
+// }
+// .cardServer:hover > .cardInner::before {
+//     -webkit-transform: translateZ(-60px);
+//     transform: translateZ(-60px);
+    
+// }
+
